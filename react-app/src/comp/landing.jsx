@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import About from './about'
 import Typewriter from "typewriter-effect"; 
+
 class Landing extends Component {
     constructor(props) {
         super(props)
         this.myRef = React.createRef()
+        
         this.state = {
           current: '',
           count: 0,
@@ -18,7 +20,8 @@ class Landing extends Component {
           ],
           isDeleting: false,
           speed: 150,
-          loop: 0
+          loop: 0,
+          landing: false
         }
      
       }
@@ -27,7 +30,7 @@ class Landing extends Component {
        this.type()
       }
      type = () => {
-      if(this.state.count === this.state.text.length) {
+ /*     if(this.state.count === this.state.text.length) {
           this.setState({count: 0})
         } else {
         this.setState({current: this.state.text[this.state.count],
@@ -42,7 +45,7 @@ class Landing extends Component {
               this.setState({count: this.count + 1})
               this.setState({index: 0})
         }
-        setTimeout(this.type, 400) 
+        setTimeout(this.type, 400) */
    
        
       }
@@ -51,7 +54,8 @@ class Landing extends Component {
 
     handleScroll = () => {
         let lastScrollY = window.scrollY;
-           if (lastScrollY > 40) {
+         
+     if(lastScrollY > 40) {
              console.log("yes")
              this.setState({
                arrow: true
@@ -59,6 +63,7 @@ class Landing extends Component {
         } else {
              this.setState({
                arrow: false
+            
                })
           }
         } 
@@ -67,6 +72,7 @@ class Landing extends Component {
         scrollToTop = () => {
           this.myRef.current.scrollIntoView({ behavior: 'smooth' })
       } 
+     
   render() {
   return (
    <> 
@@ -76,10 +82,35 @@ class Landing extends Component {
             <h1>my name is Skylar</h1>
             <div className="type-text">
             <h2>I am a </h2>
-            <h2 className="typing">{this.state.current}</h2>
+            <h2 className="typing">{this.state.arrow ?
+            <Typewriter 
+        
+       options={{
+        strings: ['Web Developer', 'UX designer', 'Content Creater'],
+        autoStart: true,
+        loop: true,
+      }}
+        
+      
+    
+       /> : <div><Typewriter
+       onInit={(typewriter) => {
+         typewriter.typeString('')
+           .callFunction(() => {
+             console.log('String typed out!');
+           })
+           .pauseFor(500)
+           .deleteAll()
+           .callFunction(() => {
+             console.log('All strings were deleted');
+           })
+           .start();
+       }} /></div> }
+            
+            </h2>
             </div>
         </div>
-        <div className="arrow">
+        <div className="arrow" >
             <div className="landing-text">
                <h3>click to see more on my page</h3>
             </div>

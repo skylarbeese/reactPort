@@ -45,9 +45,9 @@ body{
 .typing{
   margin-left: .5rem;
   position: relative;
-
+  color: red;
 }
-@keyframes blink{
+/*@keyframes blink{
   from{
    opacity: 0;
   }
@@ -63,7 +63,7 @@ body{
   right: -6px;
   border-right: 2px solid black;
   animation: blink .5s infinite ease;
-}
+} */
 .arrow{
   justify-content: center;
   align-items: center;
@@ -121,7 +121,7 @@ body{
     
   }
   ul a li{
-    margin: 3rem;
+    margin: 1.3rem;
     list-style: none;
     text-decoration: none;
     font-size: 2rem;
@@ -140,24 +140,158 @@ body{
   transition: .4s;
 }
 /*---------about-------------------------------------------------------------------------------------------*/
+.about{
+  width: 100vw;
+  height: 100vh;
+
+}
+.about-header-text{
+  z-index: 2;
+}
 .about-con{
   width: 100%;
-  background-color: black;
+  
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-top: 4rem;
-  padding-bottom: 4rem
+  position: absolute;
+  overflow-y: hidden;
+ 
+  width: 100%;
+  height: 100%;
 }
+
+.grad-show{
+   
+    opacity: .6;
+    transition: 1s;
+}
+.grad-hide{
+   
+    opacity: 1;
+    transition: 1s;
+} 
 .about-title {
-  color: white;
+ 
+  font-size: 2.3rem;
+  letter-spacing: 2rem;
+
+} 
+.grad{
+  position: absolute;
+  overflow-y: hidden;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.about-title h1{
+  background: -webkit-linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255));
+  background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 2rem;
+ 
 }
 .about-text{
   color: white;
-  margin-left: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  height: 24vh;
+ z-index: 2;
+}
+.about-text .underline{
+  
+   background-color: azure;
+   width: 1px;
+   height: 100%;
+}
+.about-text h1{
+  margin-top: 4rem;
+ 
+   padding-bottom: 1rem;
+ 
+ 
+ 
+}
+.about-img{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.about-img .img{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+.image-banner{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .about-text p{
   width: 60%;
+}
+/*-----------------------------*/
+.text-show{
+  transform: translateY(0px);
+  transition: 1.7s .4s;
+  opacity: 1;
+}
+.text-hide{
+  transform: translateY(-200px);
+  transition: 1s  .3s;
+  opacity: 0;
+}
+/*-----------------------------*/
+.text-title-show{
+  transform: translateY(0px);
+  transition: 1s .2s;
+  opacity: 1;
+}
+.text-title-hide{
+  transform: translateY(500px);
+  transition: 1s ;
+  opacity: 0;
+}
+/*-----------------------------*/
+.text-para-show{
+  transform: translateX(0px);
+  transition: 1s .8s;
+  opacity: 1;
+}
+.text-para-hide{
+  transform: translateX(-1000px);
+  transition: 1s ;
+  opacity: 0;
+}
+/*-----------------------------*/
+.text-under-show{
+  transform: translateY(0px);
+  transition: 1s .3s;
+  opacity: 1;
+}
+.text-under-hide{
+  transform: translateY(100px);
+  transition: 1s ;
+  opacity: 0;
 }
 /*--------------------------------------------------------------------------------------------------------*/
