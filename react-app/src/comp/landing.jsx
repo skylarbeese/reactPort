@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import About from './about'
+import Tech from './tech'
 import Typewriter from "typewriter-effect"; 
 
 class Landing extends Component {
@@ -117,9 +118,14 @@ class Landing extends Component {
             <h2 className={this.state.arrow ? "an-start" : ""} onClick={this.scrollToTop}><i class="fas fa-angle-down"></i></h2>
         </div>
     </div>
+    <div className="port">
+ 
+    <Tech />
     <div className="about" ref={this.myRef}>
     <About />
     </div>
+    </div>
+    
    </>
   );
   }

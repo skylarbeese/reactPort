@@ -6,7 +6,8 @@ class About extends Component {
     super(props)
     this.myRef = React.createRef()
     this.state = {
-      textTile: false
+      textTile: false,
+      img: false
     }
   
   }
@@ -16,7 +17,7 @@ class About extends Component {
   }
   handleScroll = () => {
     let lastScrollY = window.scrollY;
-       if (lastScrollY > 450 && lastScrollY < 900) {
+       if (lastScrollY > 500 ) {
          console.log("yes")
          this.setState({
            textTile: true
@@ -26,12 +27,23 @@ class About extends Component {
            textTile: false
            })
       }
+      if (lastScrollY > 500 && lastScrollY < 900) {
+        console.log("yes")
+        this.setState({
+          img: true
+        })
+   } else {
+        this.setState({
+          img: false
+          })
+     }
     } 
   render() {
   return (
    <>
       <div className={`about-con `}>
-        <div className={`grad ${this.state.textTile ? 'grad-show' : 'grad-hide'}`}></div>
+      <div className={`grad-top`}></div>
+        <div className={`grad ${this.state.img ? 'grad-show' : 'grad-hide'}`}></div>
         <div className="about-header-text">
          <div className={`about-title ${this.state.textTile ? 'text-show' : 'text-hide'}`}>
              <h1>about me</h1>
@@ -44,12 +56,10 @@ class About extends Component {
      
         <div className="about-text">
             <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journy as a web developer</h1>
-           {/* <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>Bacon ipsum dolor amet prosciutto tongue drumstick andouille short loin, 
+            <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>Bacon ipsum dolor amet prosciutto tongue drumstick andouille short loin, 
                 pork chop alcatra frankfurter leberkas filet mignon picanha venison spare ribs.
                  Bacon capicola spare ribs shoulder pork belly, cupim meatball ball tip 
-                 landjaeger ribeye ham hock biltong shank ground round fatback. Meatball 
-                 pastrami ground round alcatra tongue t-bone. Porchetta meatloaf boudin 
-  spare ribs chislic, buffalo bacon capicola </p> */}
+                 landjaeger  </p> 
                   
                    <div className={`underline ${this.state.textTile ? 'text-under-show' : 'text-under-hide'}`}></div>
         </div>
@@ -57,7 +67,7 @@ class About extends Component {
       </div>
       <div className={`about-img`}>
         <div className="img">
-                  <div className="image-banner " style= {{backgroundImage: `url(${Photo})`}}></div>
+                  <div className="image-banner " style= {{backgroundImage: `url(${Photo[0]})`}}></div>
                   </div>
         </div>
    </>
