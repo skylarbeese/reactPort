@@ -10,46 +10,86 @@ class Work extends Component {
               <h1>My projects</h1>
              
           </div>
-          <div className="un">
+        
               <div className="underline-header-work"></div>
-              </div>
+          
           <div className="projects">
              <div className="project-grid">
-                 
+              
                 <div className="project-img proj-1">
                 <div className="img-con">
+               
+                     <div className="grad-img"></div>
+               
                   <div className="proj-img" style= {{backgroundImage: `url(${Photo[1]})`}}></div>
                   </div>
                   <div className="text">
-                      <h1>star wars</h1>
+                      <h1>Weather Api</h1>
+                      <p>this app was created in React js from an api. I allows you to see
+                          the weather in cities around the world. and is styled using css.
+                      </p>
                   </div>
+                  <div className="icon">
+                      
+                      </div>
                 </div>
                 
                 <div className="project-img proj-2">
+               
                 <div className="img-con">
+               
+                     <div className="grad-img"></div>
+             
                   <div className="proj-img" style= {{backgroundImage: `url(${Photo[2]})`}}></div>
                   </div>
                   <div className="text">
-                      <h1>star wars</h1>
+                      <h1>star wars Api</h1>
+                      <p>this site was created using a web api in venella Javascript, CSS and HTML.
+                          the site holds meny emelents that were made with . and style with css. 
+
+                      </p>
                   </div>
+                  <div className="icon">
+                      
+                      </div>
                 </div>
                 
                 <div className="project-img proj-3">
+               
                 <div className="img-con">
+               
+                     <div className="grad-img"></div>
+            
                   <div className="proj-img" style= {{backgroundImage: `url(${Photo[3]})`}}></div>
                   </div>
                   <div className="text">
-                      <h1>star wars</h1>
+                      <h1>Photo gallery </h1>
+                      <p>this site was created for a local photography buisness. created using intuitve clean UI 
+                          branding the product that is being sold. this site was created using React.js.
+                      </p>
+                  </div>
+                  <div className="icon">
+
                   </div>
                 </div>
 
                 <div className="project-img proj-4">
+               
                 <div className="img-con">
+               
+                     <div className="grad-img"></div>
+            
                   <div className="proj-img" style= {{backgroundImage: `url(${Photo[4]})`}}></div>
                   </div>
                   <div className="text">
-                      <h1>star wars</h1>
+                      <h1>Job Listing Site</h1>
+                      <p> this site allows you to view and list jobs after setting up an account and password
+                          you can search for any type of job you are looking for. created using OOP PHP and bootstrap
+                      </p>
                   </div>
+                  <div className="icon">
+                      
+                      </div>
                 </div>
 
 
