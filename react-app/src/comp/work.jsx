@@ -5,6 +5,7 @@ class Work extends Component {
   render() {
   return (
    <>
+   <div className="work">
       <div className="work-con">
           <div className="header-text-work">
               <h1>My projects</h1>
@@ -15,7 +16,8 @@ class Work extends Component {
           
           <div className="projects">
              <div className="project-grid">
-              
+
+              <div className="proj-img-con">
                 <div className="project-img proj-1">
                 <div className="img-con">
                
@@ -30,10 +32,14 @@ class Work extends Component {
                       </p>
                   </div>
                   <div className="icon">
-                      
+                  <div className="icons">
+                    <div className="git">view github<i class="fab fa-github"></i></div>
+                    <div className="site">visit site<i class="fas fa-angle-right"></i></div>
+                  </div>
                       </div>
                 </div>
-                
+              </div>  
+              <div className="proj-img-con">
                 <div className="project-img proj-2">
                
                 <div className="img-con">
@@ -50,10 +56,14 @@ class Work extends Component {
                       </p>
                   </div>
                   <div className="icon">
-                      
+                  <div className="icons">
+                    <div className="git">view github<i class="fab fa-github"></i></div>
+                    <div className="site">visit site<i class="fas fa-angle-right"></i></div>
+                  </div>
                       </div>
                 </div>
-                
+                </div>
+                <div className="proj-img-con">
                 <div className="project-img proj-3">
                
                 <div className="img-con">
@@ -69,10 +79,14 @@ class Work extends Component {
                       </p>
                   </div>
                   <div className="icon">
-
+                  <div className="icons">
+                    <div className="git">view github<i class="fab fa-github"></i></div>
+                    <div className="site">visit site<i class="fas fa-angle-right"></i></div>
+                  </div>
                   </div>
                 </div>
-
+                </div>
+                <div className="proj-img-con">
                 <div className="project-img proj-4">
                
                 <div className="img-con">
@@ -88,13 +102,17 @@ class Work extends Component {
                       </p>
                   </div>
                   <div className="icon">
-                      
+                  <div className="icons">
+                    <div className="git">view github<i class="fab fa-github"></i></div>
+                    <div className="site">visit site<i class="fas fa-angle-right"></i></div>
+                  </div>
                       </div>
                 </div>
-
+                  </div>
 
              </div>
           </div>
+      </div>
       </div>
    </>
   );
