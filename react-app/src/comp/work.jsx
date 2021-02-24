@@ -2,24 +2,82 @@ import React, { Component } from 'react'
 import Photo from './../photoArr'
 
 class Work extends Component {
+    constructor(props) {
+        super(props)
+        this.myRef = React.createRef()
+        this.state = {
+     
+         icon1: false,
+         icon2: false,
+         icon3: false,
+         icon4: false,
+         proj: false,
+         text: false,
+         und: false
+        }
+     
+      }
+      componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll, true);
+      }
+      handleScroll = () => {
+     let lastScrollY = window.scrollY;
+        if (lastScrollY > 900) {
+         
+          this.setState({
+            proj: true,
+            text: true,
+            und: true
+          })
+          
+       
+       
+         } else {
+          this.setState({
+            proj: false,
+            text: false,
+            und: false
+            
+          })
+        console.log(lastScrollY)
+        }
+      }
+ /*    hoverHandlerOver1 = () => {
+          this.setState({icon1: true})
+      }
+      hoverHandlerOut1 = () => {
+        this.setState({icon1: false})
+    }
+      hoverHandler2 = () => {
+        this.setState({ icon2: true})
+    }
+    hoverHandler3 = () => {
+        this.setState({ icon3: true
+        })
+    }
+    hoverHandler4 = () => {
+        this.setState({
+             icon4: !this.state.icon4})
+    } */
   render() {
   return (
    <>
    <div className="work">
       <div className="work-con">
           <div className="header-text-work">
-              <h1>My projects</h1>
+              <h1 className={this.state.text ? 'textH-show' : 'textH-hide'}>My projects</h1>
              
           </div>
         
-              <div className="underline-header-work"></div>
+              <div className={`underline-header-work ${this.state.und ? 'und-show' : 'und-hide'}`}></div>
           
           <div className="projects">
-             <div className="project-grid">
+             <div className={`project-grid ${this.state.proj ? 'proj-show' : 'proj-hide'}`}>
 
-              <div className="proj-img-con">
-                <div className="project-img proj-1">
-                <div className="img-con">
+              <div className={`proj-img-con `} onMouseEnter={this.hoverHandlerOver1}
+              >
+                <div className="project-img proj-1"  >
+                <div className="img-con" >
                
                      <div className="grad-img"></div>
                
@@ -31,7 +89,7 @@ class Work extends Component {
                           the weather in cities around the world. and is styled using css.
                       </p>
                   </div>
-                  <div className="icon">
+                  <div className={`icon ${this.state.icon1 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
                     <div className="git">view github<i class="fab fa-github"></i></div>
                     <div className="site">visit site<i class="fas fa-angle-right"></i></div>
@@ -39,7 +97,7 @@ class Work extends Component {
                       </div>
                 </div>
               </div>  
-              <div className="proj-img-con">
+              <div className={`proj-img-con `}  onMouseEnter={this.hoverHandler2}>
                 <div className="project-img proj-2">
                
                 <div className="img-con">
@@ -55,7 +113,7 @@ class Work extends Component {
 
                       </p>
                   </div>
-                  <div className="icon">
+                  <div className={`icon ${this.state.icon2 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
                     <div className="git">view github<i class="fab fa-github"></i></div>
                     <div className="site">visit site<i class="fas fa-angle-right"></i></div>
@@ -63,7 +121,7 @@ class Work extends Component {
                       </div>
                 </div>
                 </div>
-                <div className="proj-img-con">
+                <div className={`proj-img-con `}  onMouseEnter={this.hoverHandler3}>
                 <div className="project-img proj-3">
                
                 <div className="img-con">
@@ -78,7 +136,7 @@ class Work extends Component {
                           branding the product that is being sold. this site was created using React.js.
                       </p>
                   </div>
-                  <div className="icon">
+                  <div className={`icon ${this.state.icon3 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
                     <div className="git">view github<i class="fab fa-github"></i></div>
                     <div className="site">visit site<i class="fas fa-angle-right"></i></div>
@@ -86,7 +144,7 @@ class Work extends Component {
                   </div>
                 </div>
                 </div>
-                <div className="proj-img-con">
+                <div className={`proj-img-con `}  onMouseEnter={this.hoverHandler4}>
                 <div className="project-img proj-4">
                
                 <div className="img-con">
@@ -101,7 +159,7 @@ class Work extends Component {
                           you can search for any type of job you are looking for. created using OOP PHP and bootstrap
                       </p>
                   </div>
-                  <div className="icon">
+                  <div className={`icon ${this.state.icon4 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
                     <div className="git">view github<i class="fab fa-github"></i></div>
                     <div className="site">visit site<i class="fas fa-angle-right"></i></div>
