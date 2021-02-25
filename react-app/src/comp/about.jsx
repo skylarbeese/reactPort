@@ -17,7 +17,7 @@ class About extends Component {
   }
   handleScroll = () => {
     let lastScrollY = window.scrollY;
-       if (lastScrollY > 500 ) {
+       if (lastScrollY > 500 && lastScrollY < 1500) {
          console.log("yes")
          this.setState({
            textTile: true
@@ -27,7 +27,7 @@ class About extends Component {
            textTile: false
            })
       }
-      if (lastScrollY > 500 && lastScrollY < 900) {
+      if (lastScrollY > 500 && lastScrollY < 1500) {
         console.log("yes")
         this.setState({
           img: true

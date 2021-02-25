@@ -16,7 +16,7 @@ class Tech extends Component {
   }
   handleScroll = () => {
  let lastScrollY = window.scrollY;
-    if (lastScrollY > 500) {
+    if (lastScrollY > 500 && lastScrollY < 800) {
      
       this.setState({
         git: true
