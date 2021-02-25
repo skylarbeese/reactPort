@@ -9,19 +9,34 @@ class Nav extends Component {
     this.state = {
  
       nav: false,
-      arrow: false
+      arrow: false,
+      burger: false,
+      isMobile: false
     }
  
   }
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, true);
+    window.addEventListener('resize', this.handleWindowResize);
+  }
+  handleWindowResize = () => {
+    let lastScroll = window.innerWidth;
+    if(lastScroll < 630) {
+      console.log('true')
+        this.setState({isMobile: true})
+    } else {
+      this.setState({isMobile: false})
+    }
+   console.log(lastScroll)
   }
   handleScroll = () => {
  let lastScrollY = window.scrollY;
+
     if (lastScrollY > 10) {
-      console.log("yes")
+  //    console.log("yes")
       this.setState({
-        nav: true
+        nav: true,
+        
       })
       
     } else if(lastScrollY > 70) {
@@ -34,23 +49,31 @@ class Nav extends Component {
     
     }
    
-    console.log(lastScrollY)
-   
+ //   console.log(lastScrollY)
+  
   }
   
+  burgerHandler = () => {
+    this.setState({burger: true})
+  }
   render() {
  
   return (
    <> 
     <nav className={`${this.state.nav ? "scroll-show" : "scroll-hide"}`}>
     <div className="nav-link">
-        <ul>
+    {this.state.isMobile ?  (<div className={`burger `} onClick={this.burgerHandler}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>) :
+       ( <ul>
         
-         <Link to="/"><li>home</li></Link>
+            <Link to="/"><li>home</li></Link>
             <Link to="/comp/contact"><li>contact me</li></Link>  
           
 
-        </ul>
+        </ul>) }
         </div>
     </nav>
    </>
