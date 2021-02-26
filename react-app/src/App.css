@@ -233,7 +233,7 @@ form input{
   }
   .nav-link{
     float: right;
-    width: 30%;
+    width: 10%;
     height: 100%;
    
     justify-content: center;
@@ -1012,7 +1012,7 @@ display: flex;
   }
   .nav-link{
     float: right;
-    width: 50%;
+    width: 30%;
     height: 100%;
    
     justify-content: center;

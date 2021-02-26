@@ -42,7 +42,7 @@ class Tech extends Component {
   
      <div className="boxes">
      <div className="title-1">
-           <h1>laugueges I speak</h1>
+           <h1> Web language I speak</h1>
          </div>
         <div className="box">
         
@@ -91,7 +91,7 @@ class Tech extends Component {
            </div>
          </div>
          <div className="title-1">
-           <h1>UI/UX design tools</h1>
+           <h1>UI/UX design tools I use</h1>
          </div>
          <div className="box-2">
           <div className="lau-con">

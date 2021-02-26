@@ -19,7 +19,7 @@ class About extends Component {
   }
   handleScroll = () => {
     let lastScrollY = window.scrollY;
-       if (lastScrollY > 500 && lastScrollY < 1500) {
+       if (lastScrollY > 500 && lastScrollY < 1700) {
          console.log("yes")
          this.setState({
            textTile: true
@@ -29,7 +29,7 @@ class About extends Component {
            textTile: false
            })
       }
-      if (lastScrollY > 500 && lastScrollY < 1500) {
+      if (lastScrollY > 700 && lastScrollY < 1700) {
         console.log("yes")
         this.setState({
           img: true
@@ -57,7 +57,7 @@ class About extends Component {
         </div>
      
         <div className="about-text">
-            <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journy as a web developer</h1>
+            <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journey as a web developer</h1>
             <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>Bacon ipsum dolor amet prosciutto tongue drumstick andouille short loin, 
                 pork chop alcatra frankfurter leberkas filet mignon picanha venison spare ribs.
                  Bacon capicola spare ribs shoulder pork belly, cupim meatball ball tip 

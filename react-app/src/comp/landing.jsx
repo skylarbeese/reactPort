@@ -87,7 +87,7 @@ class Landing extends Component {
            <Typewriter 
         
        options={{
-        strings: ['Web Developer', 'UX designer', 'Content Creater'],
+        strings: ['Web Developer', 'UI designer', 'Content Creator'],
         autoStart: true,
         loop: true,
       }}
