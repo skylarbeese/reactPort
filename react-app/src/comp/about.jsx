@@ -8,9 +8,11 @@ class About extends Component {
     this.state = {
       textTile: false,
       img: false
+    
     }
   
   }
+ 
   componentDidMount = () => {
     window.addEventListener('scroll', this.handleScroll, true);
   

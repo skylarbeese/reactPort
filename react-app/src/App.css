@@ -6,6 +6,128 @@ body{
   overflow-x: hidden;
 
 }
+  /*---------contect-------------------------------------------------------------------------------------------*/
+  .contect-div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+  }
+  .contect-text{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .contect-und{
+    margin-top: 1rem;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+  }
+  form h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem;
+    font-size: 2rem;
+    color:black;
+  }
+  .header-text p{
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+   .underline-contact{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    height: 2px;
+    background-color:black;
+    margin-bottom: 2rem;
+  }
+  .form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-text{
+    width: 100%;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .head{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  form label{
+    color: black;
+  }
+  form .con-input{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  .in-con{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 70%;
+  }
+form input{
+  width: 100%;
+}
+  form input, textarea{
+  
+    margin: 1rem;
+    padding: .4rem;
+   
+  }
+  textarea{
+    width: 80%;
+  }
+  form button{
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    color: aliceblue;
+    font-size: 1rem;
+    background-color: rgb(15, 15, 15, .4);
+    border: 2px solid black;
+  
+  }
+  
+  form button:hover {
+    transition: .8s;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+  } 
 /*----------landing----------------------------------------------------------------------------------------*/
 
 .landing-con{
@@ -45,7 +167,7 @@ body{
 }
 .typing{
   margin-left: .5rem;
-  position: relative;
+/*  position: relative; */
   color: #7e0c0c;
 }
 /*@keyframes blink{
@@ -99,12 +221,15 @@ body{
 }
 
 /*-------------nav-----------------------------------------------------------------------------------------*/
-  nav{
+  .nav{
     width: 100vw;
     background-color: black;
     height: 5rem;
-    position: fixed;
+    
     top: 0;
+  }
+  .nav{
+    position: fixed;
   }
   .nav-link{
     float: right;
@@ -712,22 +837,24 @@ display: flex;
     display: flex;
   }
    
-  .icons .git, .site{
+  .icons .git a, .site a{
     justify-content: center;
     align-items: center;
     display: flex;
      padding: 10px 20px 10px 20px;
      border-radius: 30px;
-
+     text-decoration: none;
      color: black;
      margin-left: .5rem;
      margin-right: .5rem;
   }
  
   .icons i{
+    color: #000;
     margin-left: .2rem;
     font-size: 2rem;
   }
+
 /*--------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 0px) and (max-width:1200px){
@@ -1022,7 +1149,7 @@ display: flex;
   .landing-con{
     width: 100vw;
     height: 110vh;
-   
+    position: relative;
  }
  .landing-title{
    justify-content: center;
@@ -1056,7 +1183,7 @@ display: flex;
  }
  .typing{
    margin-left: .5rem;
-   position: relative;
+ /*  position: relative; */
    color: #7e0c0c;
  }
 
@@ -1313,8 +1440,168 @@ display: flex;
   transition: .3s;
 } 
 }
+.links-con{
+  width: 100vw;
+  height: 120vh;
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-700px);
+} 
+.div a {
+  color: white;
+  margin-top: 5rem;
+  text-decoration: none;
+  font-size: 3rem;
+}
 
-@media screen and (min-width: 0px) and (max-width:620px) {
+.nav-link{
+  float: right;
+  width: 70%;
+  height: 100%;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 1rem;
+}
+.burger {
+  width: 60px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+  position: absolute;
+  z-index: 4;
+}
+/*------------------------*/
+ .line1-ch{
+  transform: rotate(50deg);
+  transition: .4s;
+ }
+ .line1-ba{
+  transform: rotate(0deg);
+  transition: .4s;
+ 
+}
+.line2-ch{
+  transform: translateY(-10px);
+  transition: .4s;
+  opacity: 0;
+}
+.line2-ba{
+  transform: translateY(0px);
+  transition: .4s;
+  opacity: 1;
+}
+.line3-ch{
+  transform: rotate(-50deg);
+  transition: .4s;
+}
+.line3-ba{
+  transform: rotate(0deg);
+  transition: .4s;
+}
+/*----------------------*/
+.links-show{
+  transform: translateY(0px);
+  transition: .5s;
+}
+.links-hide{
+  transform: translateY(-700px);
+  transition: .5s;
+}
+/*--------------------------------------*/
+.links-text-show{
+  transform: translateY(0px);
+  transition: 1s .5s ease-in-out;
+  opacity: 1;
+}
+.links-text-hide{
+  transform: translateY(-700px);
+  transition: 1s ease-in-out;
+  opacity: 0;
+}
+@media screen and (min-width: 0px) and (max-width: 780px) {
+  /*---------contect-------------------------------------------------------------------------------------------*/
+
+  .form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  
+  form label{
+    color: black;
+  }
+  form .con-input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .in-con{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 70%;
+  }
+
+.in-con {
+ width: 90%;
+ justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+ input, textarea{
+  
+    margin: 1rem;
+    padding: .4rem;
+   
+  }
+  textarea{
+    width: 100%;
+  }
+ 
+}
+@media screen and (min-width: 0px) and (max-width:670px) {
+  nav{
+    width: 100%;
+    background-color: black;
+    height: 5rem;
+    position: relative;
+    top: 0;
+  }
+  .links-con{
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+  } 
+
   .nav-link{
     float: right;
     width: 10%;
@@ -1331,8 +1618,8 @@ display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-     
+    flex-direction: column; 
+    position: absolute;
   }
   .burger span{
     width: 100%;
@@ -1653,7 +1940,7 @@ display: flex;
  }
  .typing{
    margin-left: .5rem;
-   position: relative;
+ /*  position: relative; */
    color: #7e0c0c;
  }
 

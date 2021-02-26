@@ -83,8 +83,8 @@ class Landing extends Component {
             <h1>my name is Skylar</h1>
             <div className="type-text">
             <h2>I am a </h2>
-            <h2 className="typing">{this.state.arrow ?
-            <Typewriter 
+           <h2 className="typing">{this.state.arrow ?
+           <Typewriter 
         
        options={{
         strings: ['Web Developer', 'UX designer', 'Content Creater'],
@@ -106,10 +106,10 @@ class Landing extends Component {
              console.log('All strings were deleted');
            })
            .start();
-       }} /></div> }
+       }} /></div> } 
             
-            </h2>
-            </div>
+            </h2> 
+            </div> 
         </div>
         <div className="arrow" >
             <div className="landing-text">
