@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Photo from './../photoArr'
-import {Link} from 'react-router-dom'
+
 class Work extends Component {
     constructor(props) {
         super(props)
@@ -91,8 +91,8 @@ class Work extends Component {
                   </div>
                   <div className={`icon ${this.state.icon1 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
-                  <div className="git"><Link to="https://github.com/skylarbeese/WeatherApp_Api.git">view github<i class="fab fa-github"></i></Link></div>
-                    <div className="site"><Link to="">visit site<i class="fas fa-angle-right"></i></Link></div>
+                  <div className="git"><a href="https://github.com/skylarbeese/WeatherApp_Api.git"  target="_blank" rel="noopener noreferrer">view github<i class="fab fa-github"></i></a></div>
+                    <div className="site"><a href="https://relaxed-goldberg-1fd44d.netlify.app"  target="_blank" rel="noopener noreferrer">visit site<i class="fas fa-angle-right"></i></a></div>
                   </div>
                       </div>
                 </div>
@@ -115,8 +115,8 @@ class Work extends Component {
                   </div>
                   <div className={`icon ${this.state.icon2 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
-                  <div className="git"><Link to="https://github.com/skylarbeese/StarWarsApi.git">view github<i class="fab fa-github"></i></Link></div>
-                    <div className="site"><Link to="">visit site<i class="fas fa-angle-right"></i></Link></div>
+                  <div className="git"><a href="https://github.com/skylarbeese/StarWarsApi.git"  target="_blank" rel="noopener noreferrer">view github<i class="fab fa-github"></i></a></div>
+                    <div className="site"><a href="https://trusting-swanson-b25497.netlify.app"  target="_blank" rel="noopener noreferrer">visit site<i class="fas fa-angle-right"></i></a></div>
                   </div>
                       </div>
                 </div>
@@ -138,8 +138,8 @@ class Work extends Component {
                   </div>
                   <div className={`icon ${this.state.icon3 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
-                  <div className="git"><Link to="https://github.com/skylarbeese/ReactPhoto.git">view github<i class="fab fa-github"></i></Link></div>
-                    <div className="site"><Link to="">visit site<i class="fas fa-angle-right"></i></Link></div>
+                  <div className="git"><a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">view github<i class="fab fa-github"></i></a></div>
+                    <div className="site"><a href="https://unruffled-sinoussi-e00dd6.netlify.app"  target="_blank" rel="noopener noreferrer">visit site<i class="fas fa-angle-right"></i></a></div>
                   </div>
                   </div>
                 </div>
@@ -161,8 +161,8 @@ class Work extends Component {
                   </div>
                   <div className={`icon ${this.state.icon4 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
-                    <div className="git"><Link to="https://github.com/skylarbeese/jobSite.git">view github<i class="fab fa-github"></i></Link></div>
-                    <div className="site"><Link to="">visit site<i class="fas fa-angle-right"></i></Link></div>
+                    <div className="git"><a href="https://github.com/skylarbeese/jobSite.git"  target="_blank" rel="noopener noreferrer">view github<i class="fab fa-github"></i></a></div>
+                    <div className="site"><a href=""  target="_blank" rel="noopener noreferrer">visit site<i class="fas fa-angle-right"></i></a></div>
                   </div>
                       </div>
                 </div>
