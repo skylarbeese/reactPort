@@ -19,13 +19,9 @@ class Nav extends Component {
     }
  
   }
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll, true);
-    window.addEventListener('resize', this.handleWindowResize);
-  }
-  componentWillMount() {
-    window.addEventListener("resize", this.handleWindowResize);
-   }
+  
+
+
   handleWindowResize = () => {
     let lastScroll = window.innerWidth;
     if(lastScroll < 690) {
@@ -40,6 +36,14 @@ class Nav extends Component {
   handleNav = () => {
     this.setState({navD: !this.state.navD, navText: !this.state.navText})
     
+   }
+   // window.addEventListener('resize', this.handleWindowResize); 
+   componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll, true);
+    this.handleWindowResize()
+  }
+  componentWillMount() {
+    window.addEventListener("resize", this.handleWindowResize);
    }
 
 

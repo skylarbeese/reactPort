@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import Nav from './nav'
 //import EmailJs from 'emailjs-com'
 class Contact extends Component {
- /*  sendEmail = (e) => {
+
+ /* sendEmail(e)  {
     e.preventDefault()
  
     EmailJs.sendForm('gmail', 'template_0y45lja', e.target, 'user_xy8ABjwAfQzsJe1G1xVR6')
@@ -12,11 +13,10 @@ class Contact extends Component {
      console.log(error.text);
  });
    e.target.reset()
-   }
-*/
+   } */
 
   render() {
- 
+  
   return (
    <>
    <Nav /> 
