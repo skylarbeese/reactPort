@@ -1593,7 +1593,7 @@ display: flex;
   }
   .links-con{
     width: 100vw;
-    height: 120vh;
+    height: 40vh;
     background-color: black;
     color: bisque;
     justify-content: center;
