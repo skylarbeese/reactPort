@@ -139,7 +139,7 @@ class Work extends Component {
                   <div className={`icon ${this.state.icon3 ? 'icon-show' : 'icon-hide'}`}>
                   <div className="icons">
                   <div className="git"><a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">view github<i class="fab fa-github"></i></a></div>
-                    <div className="site"><a href="https://unruffled-sinoussi-e00dd6.netlify.app"  target="_blank" rel="noopener noreferrer">visit site<i class="fas fa-angle-right"></i></a></div>
+                    <div className="site"><a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">visit site<i class="fas fa-angle-right"></i></a></div>
                   </div>
                   </div>
                 </div>
