@@ -1476,7 +1476,8 @@ display: flex;
 }
 /*------------------------*/
  .line1-ch{
-  transform: rotate(50deg);
+  transform: translateY(16px) rotate(60deg) scale(.4);
+  
   transition: .4s;
  }
  .line1-ba{
@@ -1495,7 +1496,7 @@ display: flex;
   opacity: 1;
 }
 .line3-ch{
-  transform: rotate(-50deg);
+  transform: rotate(-60deg) scale(.4);
   transition: .4s;
 }
 .line3-ba{
