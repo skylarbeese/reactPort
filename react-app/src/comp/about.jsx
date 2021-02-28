@@ -58,10 +58,11 @@ class About extends Component {
      
         <div className="about-text">
             <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journey as a web developer</h1>
-            <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>Bacon ipsum dolor amet prosciutto tongue drumstick andouille short loin, 
-                pork chop alcatra frankfurter leberkas filet mignon picanha venison spare ribs.
-                 Bacon capicola spare ribs shoulder pork belly, cupim meatball ball tip 
-                 landjaeger  </p> 
+            <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>
+              I create responsive, scalable and visualy intuitive sites. I have worked on projects in a verity of 
+              programming languagees. I have a passion for building and making the web come to 
+              life through UI design, animations and effects.
+                  </p> 
                   
                    <div className={`underline ${this.state.textTile ? 'text-under-show' : 'text-under-hide'}`}></div>
         </div>
