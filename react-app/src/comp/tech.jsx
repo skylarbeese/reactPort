@@ -42,7 +42,7 @@ class Tech extends Component {
   
      <div className="boxes">
      <div className="title-1">
-           <h1> Web language I speak</h1>
+           <h1> Web languages </h1>
          </div>
         <div className="box">
         
