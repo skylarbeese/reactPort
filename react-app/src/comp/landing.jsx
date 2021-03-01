@@ -111,11 +111,11 @@ class Landing extends Component {
             
             </h2> 
             </div> 
-        { /*   <div className="sc">
+         <div className="sc">
             
               <h1>scroll down to see more <i class="fas fa-angle-down"></i></h1>
               
-      </div> */}
+      </div> 
         </div>
         <div className="arrow" >
             <div className="landing-text">
