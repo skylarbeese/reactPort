@@ -81,6 +81,7 @@ class Landing extends Component {
         <div className="landing-title">
             <h1 className="hello">Hello, </h1>
             <h1>my name is Skylar</h1>
+           
             <div className="type-text">
             <h2>I am a </h2>
            <h2 className="typing">{this.state.arrow ?
@@ -110,6 +111,11 @@ class Landing extends Component {
             
             </h2> 
             </div> 
+        { /*   <div className="sc">
+            
+              <h1>scroll down to see more <i class="fas fa-angle-down"></i></h1>
+              
+      </div> */}
         </div>
         <div className="arrow" >
             <div className="landing-text">
@@ -117,6 +123,9 @@ class Landing extends Component {
             </div>
             <h2 className={this.state.arrow ? "an-start" : ""} onClick={this.scrollToTop}><i class="fas fa-angle-down"></i></h2>
         </div>
+   { /*    <div className="background-words">
+          <h1>Develop</h1>
+        </div> */}
     </div>
     <div className="port">
  
@@ -125,7 +134,8 @@ class Landing extends Component {
     <About />
     </div>
     </div>
-    
+   
+
    </>
   );
   }
