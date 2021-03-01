@@ -123,9 +123,9 @@ class Landing extends Component {
             </div>
             <h2 className={this.state.arrow ? "an-start" : ""} onClick={this.scrollToTop}><i class="fas fa-angle-down"></i></h2>
         </div>
-   { /*    <div className="background-words">
+    <div className="background-words">
           <h1>Develop</h1>
-        </div> */}
+        </div> 
     </div>
     <div className="port">
  

@@ -132,7 +132,7 @@ form input{
 
 .landing-con{
    width: 100vw;
-   height: 110vh;
+   height: 100vh;
   
 }
 .landing-title{
@@ -193,7 +193,8 @@ form input{
   display: flex;
   flex-direction: column;
   width: 100%;
- 
+  position: relative;
+  z-index: 4;
   height: 20%;
 }
 .landing-text{
@@ -2076,4 +2077,25 @@ display: flex;
   transform: translateY(0px);
   transition: .3s;
 } 
+}
+.sc h1{
+  font-size: 1.2rem;
+  
+  float: right;
+  transform: translateY(-30px) rotate(90deg);
+}
+.sc h1 i{
+  transform: rotate(270deg);
+}
+.type-text{
+ 
+  
+  display: flex;
+}
+.background-words{
+   transform: translateY(-250px);
+  float: right;
+  font-size: 10rem;
+  position: absolute;
+  opacity: .1; 
 }
