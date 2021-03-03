@@ -257,6 +257,7 @@ form input{
   }
   ul a{
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
   }
 /*----------------------*/
 .scroll-hide{
@@ -681,6 +682,7 @@ display: flex;
   .header-text-work h1{
     margin-bottom: 1rem;
     margin-top: 2rem;
+    
   }
   .underline-header-work{
     width: 90%;
@@ -785,6 +787,10 @@ display: flex;
     position: absolute;
     z-index: 2;
     color: white;
+  }
+  .text h1{
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: .3rem;
   }
   .text p{
     width: 40%;
@@ -1819,6 +1825,7 @@ display: flex;
 } 
 }
 @media screen and (min-width: 0px) and (max-width:550px) { 
+
   .nav-link{
     float: right;
     width: 30%;
@@ -1877,6 +1884,7 @@ display: flex;
    font-size: 1.4rem;
    padding-top: 2rem;
  }
+
  .type-text{
   
    
@@ -1891,7 +1899,11 @@ display: flex;
  /*  position: relative; */
    color: #7e0c0c;
  }
-
+ .sc h1{
+  font-size: .2rem;
+  margin-right: .2rem;
+  
+}
  .arrow{
    justify-content: center;
    align-items: center;
@@ -2100,10 +2112,12 @@ display: flex;
 }
 .sc h1{
   font-size: 1.2rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
   float: right;
   transform: translateY(-30px) rotate(90deg);
   animation: s 3s 2s infinite;
+  font-family: 'Scheherazade', serif;
+  letter-spacing: .2rem;
 }
 .sc h1 i{
   transform: rotate(270deg);
@@ -2119,4 +2133,5 @@ display: flex;
   font-size: 10rem;
   position: absolute;
   opacity: .1; 
+  
 }

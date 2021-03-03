@@ -108,9 +108,8 @@ class Work extends Component {
                   </div>
                   <div className="text">
                       <h1>star wars Api</h1>
-                      <p>this site was created using a web api in venella Javascript, CSS and HTML.
-                          the site holds meny emelents that were made with . and style with css. 
-
+                      <p>this site was created using a web api in  Javascript, CSS and HTML.
+                          
                       </p>
                   </div>
                   <div className={`icon ${this.state.icon2 ? 'icon-show' : 'icon-hide'}`}>
