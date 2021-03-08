@@ -86,7 +86,7 @@ class Tech extends Component {
          </div>
            <div className="lau-con">
             
-            <h1 className={`git-hub ${this.state.git ? 'git-show' : 'git-hide'}`}>Github</h1>
+            <h1 className={`git-hub ${this.state.git ? 'git-show' : 'git-hide'}`}>node.js</h1>
             <div className="und-lau"></div>
            </div>
          </div>
