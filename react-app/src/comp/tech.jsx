@@ -76,7 +76,7 @@ class Tech extends Component {
           
            <div className="lau-con ">
           
-            <h1 className={`spl ${this.state.git ? 'sql-show' : 'sql-hide'}`}>MySql</h1>
+            <h1 className={`spl ${this.state.git ? 'sql-show' : 'sql-hide'}`}>MySql/NoSql</h1>
             <div className="und-lau"></div>
            </div>
            <div className="lau-con ">
@@ -86,7 +86,7 @@ class Tech extends Component {
          </div>
            <div className="lau-con">
             
-            <h1 className={`git-hub ${this.state.git ? 'git-show' : 'git-hide'}`}>node.js</h1>
+            <h1 className={`git-hub ${this.state.git ? 'git-show' : 'git-hide'}`}>Node.js</h1>
             <div className="und-lau"></div>
            </div>
          </div>
