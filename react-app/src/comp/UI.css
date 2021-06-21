@@ -1,0 +1,46 @@
+.Ui-con {
+    
+    width: 100%;
+}
+.black {
+    background-color: black;
+    transition: 2s .5s;
+}
+.bu {
+    background-color: none;
+   
+}
+.ui-div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.project-con-ui {
+    width: 90%;
+    height: 70vh;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+.img-div-ui {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.image-banner-ui {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}

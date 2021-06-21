@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Nav from './nav'
 import Landing from './landing'
 
-import Tech from './tech'
+import Ui from './UI'
 import Work from './work'
 class Home extends Component {
   render() {
@@ -13,6 +13,7 @@ class Home extends Component {
    
  
     <Work />
+    <Ui />
    </>
   );
   }

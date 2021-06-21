@@ -57,7 +57,7 @@ class Landing extends Component {
         let lastScrollY = window.scrollY;
          
      if(lastScrollY > 40) {
-             console.log("yes")
+         //    console.log("yes")
              this.setState({
                arrow: true
              })
