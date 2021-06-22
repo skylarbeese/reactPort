@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Photo from './../photoArr'
-
+import {Link} from "react-router-dom"
 import './UI.css';
 class Ui extends Component {
   constructor(props) {
@@ -46,7 +46,9 @@ class Ui extends Component {
 
           </div>
           <div className="img-div-ui">
+            <Link to="/comp/photoUi"> phoyo </Link>
           <div className="image-banner-ui" style= {{backgroundImage: `url(${Photo[5]})`}}></div>
+          
           </div>
         </div>
         </div>
