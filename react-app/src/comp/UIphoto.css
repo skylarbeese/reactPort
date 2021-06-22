@@ -307,7 +307,7 @@
 @media screen and (min-width: 0px) and (max-width:1470px) {
     .img-gal-img-3 {
         width: 100%;
-        height: 120vh;
+        height: 170vh;
         
         
     }
@@ -316,7 +316,7 @@
     
         border-radius: 10px;
         position: relative;
-        width: 40%;
+        width: 38%;
         height: 100%;
      
     }
@@ -419,7 +419,7 @@
     /*-----------------------------------------------*/
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
+        height: 170vh;
         
         
     }
@@ -457,7 +457,7 @@
     
         border-radius: 10px;
         position: relative;
-        width: 100%;
+        width: 50%;
         height: 100%;
      
     }
@@ -468,7 +468,7 @@
         border-radius: 10px;
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 98%;
        
         
     }
@@ -500,7 +500,7 @@
     /*------------------------------------*/
     .img-gal-img-2 {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -509,7 +509,7 @@
         
     }
     .te-con {
-        width: 50%;
+        width: 70%;
         height: 100%;
         justify-content: center;
         align-items: center;
@@ -535,7 +535,7 @@
         /*---------------------------------------------*/
     .img-gal-img-1 {
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -566,15 +566,15 @@
     /*-----------------------------------------------*/
     .img-gal-img-3 {
         width: 100%;
-        height: 150vh;
-       
-        
+        height: 200vh;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
     .th {
     
     
         
-        width: 80%;
+        width: 55%;
         height: 92%;
      
     }
@@ -606,36 +606,32 @@
        
     }
     /*-----------------------------------------*/
-    
-    .img-gal-img-3 {
+    .img-gal-img-4 {
         width: 100%;
-        height: 120vh;
-       
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
         
     }
-    .th {
-    
-    
-        
-        width: 64%;
-        height: 92%;
-     
-    }
-    .image-banner-ui-3 {
-       
-    
-        width: 100%;
-        height: 95%;
-  
-        
-    }
-    
-}
+    .image-banner-ui-4 {
+   
 
-@media screen and (min-width: 0px) and (max-width:780px) {
+        background-color: transparent;
+        border-radius: 10px;
+        position: relative;
+        width: 60%;
+        height: 80%;
+      
+        background-size: contain;
+        border-radius: 10px;
+    }
+    /*------------------------------------*/
     .img-gal-img-2 {
         width: 100%;
-        height: 45vh;
+        height: 70vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -670,7 +666,7 @@
         /*---------------------------------------------*/
     .img-gal-img-1 {
         width: 100%;
-        height: 45vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -684,7 +680,7 @@
         background-color: transparent;
         border-radius: 0px;
         
-        width: 30%;
+        width: 25%;
         margin-left: 0rem;
         margin-right: 0rem;
         height: 100%;
@@ -701,16 +697,16 @@
     /*-----------------------------------------------*/
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
-       
-        
+        height: 200vh;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
     .th {
     
     
         
-        width: 60%;
-        height: 98%;
+        width: 65%;
+        height: 92%;
      
     }
     .image-banner-ui-3 {
@@ -740,10 +736,32 @@
         height: 80%;
        
     }
-    /*-----------------------------------------*/
+    .img-gal-img-4 {
+        width: 100%;
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .image-banner-ui-4 {
+   
+
+        background-color: transparent;
+        border-radius: 10px;
+        position: relative;
+        width: 60%;
+        height: 80%;
+      
+        background-size: contain;
+        border-radius: 10px;
+    }
+    /*------------------------------------*/
     .img-gal-img-2 {
         width: 100%;
-        height: 35vh;
+        height: 70vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -778,7 +796,7 @@
         /*---------------------------------------------*/
     .img-gal-img-1 {
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -792,7 +810,7 @@
         background-color: transparent;
         border-radius: 0px;
         
-        width: 30%;
+        width: 25%;
         margin-left: 0rem;
         margin-right: 0rem;
         height: 100%;
@@ -809,16 +827,16 @@
     /*-----------------------------------------------*/
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
-       
-        
+        height: 200vh;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
     .th {
     
     
         
-        width: 70%;
-        height: 98%;
+        width: 75%;
+        height: 92%;
      
     }
     .image-banner-ui-3 {
@@ -829,12 +847,11 @@
   
         
     }
-    
 }
 @media screen and (min-width: 0px) and (max-width:610px) {
     .img-gal-img-2 {
         width: 100%;
-        height: 35vh;
+        height: 70vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -869,7 +886,7 @@
         /*---------------------------------------------*/
     .img-gal-img-1 {
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -883,7 +900,7 @@
         background-color: transparent;
         border-radius: 0px;
         
-        width: 30%;
+        width: 25%;
         margin-left: 0rem;
         margin-right: 0rem;
         height: 100%;
@@ -900,16 +917,16 @@
     /*-----------------------------------------------*/
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
-       
-        
+        height: 200vh;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
     .th {
     
     
         
-        width: 70%;
-        height: 95%;
+        width: 85%;
+        height: 92%;
      
     }
     .image-banner-ui-3 {
@@ -939,10 +956,9 @@
         height: 80%;
        
     }
-    /*-----------------------------------------*/
     .img-gal-img-2 {
         width: 100%;
-        height: 25vh;
+        height: 70vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -977,7 +993,7 @@
         /*---------------------------------------------*/
     .img-gal-img-1 {
         width: 100%;
-        height: 30vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -991,7 +1007,7 @@
         background-color: transparent;
         border-radius: 0px;
         
-        width: 30%;
+        width: 25%;
         margin-left: 0rem;
         margin-right: 0rem;
         height: 100%;
@@ -1009,15 +1025,15 @@
     .img-gal-img-3 {
         width: 100%;
         height: 100vh;
-       
-        
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
     .th {
     
     
         
-        width: 75%;
-        height: 90%;
+        width: 35%;
+        height: 92%;
      
     }
     .image-banner-ui-3 {
@@ -1033,7 +1049,7 @@
 @media screen and (min-width: 0px) and (max-width:600px) {
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
+        height: 200vh;
        
         
     }
@@ -1041,8 +1057,8 @@
     
     
         
-        width: 75%;
-        height: 94%;
+        width: 85%;
+        height: 84%;
      
     }
     .image-banner-ui-3 {
@@ -1058,22 +1074,23 @@
 @media screen and (min-width: 0px) and (max-width:550px) {
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
+        height: 180vh;
        
-        
+        padding-top: 0rem;
+        padding-bottom: 0rem;
     }
     .th {
     
     
         
         width: 80%;
-        height: 94%;
+        height: 78%;
      
     }
     .image-banner-ui-3 {
        
     
-        width: 100%;
+        width: 94%;
         height: 95%;
   
         
@@ -1084,7 +1101,7 @@
 @media screen and (min-width: 0px) and (max-width:490px) {
     .img-gal-img-3 {
         width: 100%;
-        height: 100vh;
+        height: 170vh;
        
         
     }
@@ -1093,13 +1110,13 @@
     
         
         width: 88%;
-        height: 90%;
+        height: 80%;
      
     }
     .image-banner-ui-3 {
        
     
-        width: 100%;
+        width: 90%;
         height: 95%;
   
         
