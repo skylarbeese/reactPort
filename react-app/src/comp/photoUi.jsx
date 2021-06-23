@@ -47,9 +47,15 @@ class PhotoUi extends Component {
      <Nav />
     <div className="photoUi-con">
 
-        <div className='intro-text'>
-            <h1>Photo website</h1>
-        </div>
+      <div className="title-div">
+        <div className="tex">
+        <div className="text-des-5">
+        <h1>Photo website</h1>
+              <div className="underl"></div>
+              <p> wireframes and steches of a photography website</p>
+            </div>
+            </div>
+            </div>
         <div className="img-pr">
          {/* <div className="one-con"> */}
          <div className="img-gal-img-4">
@@ -80,14 +86,31 @@ class PhotoUi extends Component {
            
             </div>
            </div>
+           <div className="tex">
+            <div className="text-des-5">
+              <h1>Bringing to life</h1>
+              <div className="underl"></div>
+              <p>Bringing web design to life for the web in diffrent forms of media. </p>
+            </div>
+            </div>
             <div className="img-gal-img-2">
             <div className="te-con">
              <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[20]})`}}></div>
              <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[21]})`}}></div>
             </div>
             </div>
+            <div className="tex">
+            <div className="text-des-5">
+              <h1>Wireframes</h1>
+              <div className="underl"></div>
+              <p>Creating preliminary sketches and wireframes
+                 for the initial design of all the pages of the 
+                 site. Planning the flow of the website before 
+                 the final prototype. </p>
+            </div>
+            </div>
             <div className="img-gal-img-5">
-            
+           
             <div className="image-banner-ui-5 ui-4" style= {{backgroundImage: `url(${Photo[28]})`}}></div>
           
       
@@ -99,7 +122,7 @@ class PhotoUi extends Component {
              <div className="image-banner-ui-3" style= {{backgroundImage: `url(${Photo[7]})`}}></div>
             </div>
             </div>
-        </div>
+       </div>
     {/* </div> */}
    </>
   );
