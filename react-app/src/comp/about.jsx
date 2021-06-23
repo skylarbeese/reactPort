@@ -29,7 +29,7 @@ class About extends Component {
            textTile: false
            })
       }
-      if (lastScrollY > 700 && lastScrollY < 1700) {
+      if (lastScrollY > 540 && lastScrollY < 1700) {
      //   console.log("yes")
         this.setState({
           img: true

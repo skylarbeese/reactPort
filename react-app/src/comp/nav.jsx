@@ -108,7 +108,7 @@ class Nav extends Component {
         
             <Link to="/"><li>home</li></Link>
             <Link to="/comp/contact"><li>contact me</li></Link>  
-            
+            {/* <Link to="/comp/land"><li>hom</li></Link> */} 
 
         </ul>
         </div>

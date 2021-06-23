@@ -79,11 +79,11 @@ class Tech extends Component {
             <h1 className={`spl ${this.state.git ? 'sql-show' : 'sql-hide'}`}>MySql/NoSql</h1>
             <div className="und-lau"></div>
            </div>
-           <div className="lau-con ">
+          {/* <div className="lau-con ">
           
           <h1 className={`oop ${this.state.git ? 'oop-show' : 'oop-hide'}`}>OOP</h1>
           <div className="und-lau"></div>
-         </div>
+  </div> */}
            <div className="lau-con">
             
             <h1 className={`git-hub ${this.state.git ? 'git-show' : 'git-hide'}`}>Node.js</h1>

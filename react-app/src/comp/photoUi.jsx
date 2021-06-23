@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Photo from './../photoArr'
 import Nav from "./nav"
 import './UIphoto.css';
+
 class PhotoUi extends Component {
   constructor(props) {
     super(props)
@@ -122,6 +123,14 @@ class PhotoUi extends Component {
              <div className="image-banner-ui-3" style= {{backgroundImage: `url(${Photo[7]})`}}></div>
             </div>
             </div>
+
+            <div className="tex-1">
+            <div className="text-des-link">
+              <h1><a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
+              
+            </div>
+            </div>
+
        </div>
     {/* </div> */}
    </>

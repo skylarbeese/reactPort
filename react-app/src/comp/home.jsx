@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Nav from './nav'
-import Landing from './landing'
+import Land from './land'
 
 import Ui from './UI'
 import Work from './work'
@@ -9,10 +9,10 @@ class Home extends Component {
   return (
    <> 
    <Nav />
-   <Landing />
+   <Land />
    
  
-    <Work />
+    {/*<Work /> */}
     <Ui /> 
    </>
   );

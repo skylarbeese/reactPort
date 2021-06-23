@@ -42,13 +42,19 @@ class Ui extends Component {
           <div className="text-ui">
 
           </div>
-          <div className="grad-ui">
-
+       <div className="ui-grd-con">
+          <div className="img-div-ui">
+            <div className="grad-ui"></div>
+            <Link to="/comp/photoUi"> phoyo </Link>
+            <div className="image-banner-ui" style= {{backgroundImage: `url(${Photo[29]})`}}></div>
+          
           </div>
           <div className="img-div-ui">
+            <div className="grad-ui"></div>
             <Link to="/comp/photoUi"> phoyo </Link>
-          <div className="image-banner-ui" style= {{backgroundImage: `url(${Photo[5]})`}}></div>
+            <div className="image-banner-ui" style= {{backgroundImage: `url(${Photo[29]})`}}></div>
           
+          </div>
           </div>
         </div>
         </div>
