@@ -75,16 +75,37 @@
     background-color: rgb(243, 243, 243);
 }
 .proj-text {
+    width: 100%;
+    height: 100%;
     position: absolute;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 .proje-img {
     width: 100%;
     height: 100%;
     
+}
+.proj-text a {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo-banner-proj {
+    width: 40%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.logo-banner-proj:hover {
+  
 }
 .image-banner-proj {
     width: 100%;
@@ -93,10 +114,10 @@
     background-position: center;
     background-size: cover;
 }
-.gra-w {
+ .gra-w {
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(65, 65, 65);
     position: absolute;
     opacity: .4;
     transform: translateY(100vh);

@@ -56,7 +56,7 @@ class Ui extends Component {
 
             <div className="proj-con" >
               <div className="proj-text">
-                <h1>Prog</h1>
+              <Link to="/comp/photoUi"><div className="logo-banner-proj" style= {{backgroundImage: `url(${Photo[30]})`}}></div></Link>
               </div>
               <div className="gra-w"></div>
               <div className="li-text"></div>

@@ -29,6 +29,7 @@ const Arr = [
     "/img/ui27.png",
     "/img/ui28.png",
     "/img/img26.jpg",
+    "/img/logo1.png",
 
 ]
     

@@ -17,6 +17,7 @@ class App extends Component {
          <Route path="/comp/contact" component={Contact} /> 
          <Route path="/comp/photoUi" component={PhotoUi} />
          <Route path="/comp/ui" component={Ui} />
+         <Route path="/comp/photoUi" component={PhotoUi} />
         {/* <Route path="/comp/land" component={Land} /> */}
        </Switch>
      </Router>
