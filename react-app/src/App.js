@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Home from './comp/home'
 import Contact from './comp/contact'
 import PhotoUi from './comp/photoUi'
+import Ui from './comp/UI'
 import Land from './comp/land'
 //import About from './comp/about'
 import './App.css';
@@ -15,6 +16,7 @@ class App extends Component {
          <Route path="/" component={Home} exact/>
          <Route path="/comp/contact" component={Contact} /> 
          <Route path="/comp/photoUi" component={PhotoUi} />
+         <Route path="/comp/ui" component={Ui} />
         {/* <Route path="/comp/land" component={Land} /> */}
        </Switch>
      </Router>

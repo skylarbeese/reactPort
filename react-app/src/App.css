@@ -252,7 +252,7 @@ form input{
     margin: 1.3rem;
     list-style: none;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white
   }
   ul a{
@@ -1037,7 +1037,7 @@ display: flex;
     margin: 1.3rem;
     list-style: none;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white
   }
   ul a{
@@ -1435,7 +1435,8 @@ display: flex;
   color: white;
   margin-top: 5rem;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  
 }
 
 .nav-link{
@@ -1592,7 +1593,7 @@ display: flex;
     height: 40vh;
     background-color: black;
     color: bisque;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
     display: flex;

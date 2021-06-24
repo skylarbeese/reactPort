@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Photo from './../photoArr'
 import Nav from "./nav"
 import './UIphoto.css';
-
+import {Link} from "react-router-dom"
 class PhotoUi extends Component {
   constructor(props) {
     super(props)
@@ -53,7 +53,11 @@ class PhotoUi extends Component {
         <div className="text-des-5">
         <h1>Photo website</h1>
               <div className="underl"></div>
-              <p> wireframes and steches of a photography website</p>
+              <p> Photography branded website I worked on the UI and Frond-end development,
+                using Abode XD for designing the layout and React.js for the programming of the website. 
+                <a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here </a>
+                or scroll down to view my git hub.
+              </p>
             </div>
             </div>
             </div>
@@ -126,8 +130,10 @@ class PhotoUi extends Component {
 
             <div className="tex-1">
             <div className="text-des-link">
+            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">view github here<i class="fa fa-github" aria-hidden="true"></i>
+</a>
               <h1><a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
-              
+              <Link to="/comp/ui">go back</Link>
             </div>
             </div>
 

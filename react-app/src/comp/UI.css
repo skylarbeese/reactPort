@@ -6,40 +6,184 @@
     background-color: black;
     transition: 2s .5s;
 }
-.bu {
-    background-color: none;
-   
-}
-.ui-div {
+.ui-div-con {
     width: 100%;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-.project-con-ui {
- 
+.proj-title {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-.img-div-ui {
- 
-    
+.proj-title h1 {
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
 }
-.grad-ui {
+.proj-title p {
+    padding-top: 1rem;
+    letter-spacing: 2px;
+}
+.unde {
+    width: 40%;
+    height: 2px;
     background-color: black;
+}
+
+
+.proj-grid {
+  width: 95%;
+
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 70vh 70vh;
+}
+.gra {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+}
+.proj-con {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.grid-co {
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(243, 243, 243);
+}
+.proj-text {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.proje-img {
     width: 100%;
     height: 100%;
     
-    z-index: 1;
-    opacity: .5;
-    border-radius: 10px;
 }
-.img-div-ui a {
-   
+.image-banner-proj {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.image-banner-ui {
-
-    
+.gra-w {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    opacity: .4;
+    transform: translateY(100vh);
+    transition: .8s;
 }
-.ui-grd-con {
-   
+.proj-con:hover .gra-w {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: .8s;
+}
+@media screen and (min-width: 0px) and (max-width:1000px) {
+    .proj-grid {
+        width: 95%;
+      
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 70vh 70vh;
+      }
+}
+@media screen and (min-width: 0px) and (max-width:880px) {
+    .proj-grid {
+        width: 95%;
+      
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 55vh 55vh;
+      }
+}
+@media screen and (min-width: 0px) and (max-width:800px) {
+    .proj-grid {
+        width: 95%;
+      
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50vh 50vh;
+      }
+}
+@media screen and (min-width: 0px) and (max-width:700px) {
+    .proj-grid {
+        width: 95%;
+      
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 45vh 45vh;
+      }
+}
+@media screen and (min-width: 0px) and (max-width:700px) {
+    .proj-grid {
+        width: 95%;
+      
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40vh 40vh;
+      }
+}
+@media screen and (min-width: 0px) and (max-width:580px) {
+    .proj-grid {
+        width: 90%;
+        height: 120vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .proj-con {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        width: 100%;
+        height: 100%;
+    }
 }

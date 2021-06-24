@@ -83,6 +83,7 @@ class Nav extends Component {
     <div className={`links-con ${this.state.navD ? 'links-show' : 'links-hide'}`}>
          <div className={` div ${this.state.navText ? 'links-text-show' : 'links-text-hide'}`}><Link to="/">home</Link></div>
          <div className={` div ${this.state.navText ? 'links-text-show' : 'links-text-hide'}`}><Link to="/comp/contact">contact me</Link> </div> 
+         <div className={` div ${this.state.navText ? 'links-text-show' : 'links-text-hide'}`}><Link to="/comp/ui">projects</Link> </div> 
      </div>
     <div className="nav-link" onClick={this.handleNav}>
 
@@ -108,7 +109,7 @@ class Nav extends Component {
         
             <Link to="/"><li>home</li></Link>
             <Link to="/comp/contact"><li>contact me</li></Link>  
-            {/* <Link to="/comp/land"><li>hom</li></Link> */} 
+             <Link to="/comp/ui"><li>projects</li></Link>  
 
         </ul>
         </div>

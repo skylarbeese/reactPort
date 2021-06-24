@@ -13,7 +13,7 @@ class Home extends Component {
    
  
     {/*<Work /> */}
-    <Ui /> 
+    {/*<Ui /> */}
    </>
   );
   }

@@ -14,15 +14,7 @@ class Land extends Component {
             index: 0,
             letter: '',
             arrow: false,
-            text: [
-              "Artist",
-              "photographer",
-              "Disigner"
-            ],
-            isDeleting: false,
-            speed: 150,
-            loop: 0,
-            landing: false
+           
           }
        
         
@@ -44,6 +36,7 @@ class Land extends Component {
             
                })
           }
+         // console.log(this.state.arrow)
         } 
 
      

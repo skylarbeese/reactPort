@@ -56,3 +56,48 @@
     font-size: 1rem;
     letter-spacing: 2px;
 }
+@media screen and (min-width: 0px) and (max-width:900px) { 
+    .land-text {
+        width: 70%;
+        
+   }
+   
+}
+@media screen and (min-width: 0px) and (max-width:590px) { 
+    .land-text {
+        width: 70%;
+        
+   }
+   
+   .land-text h1{
+    font-size: 1.5rem;
+
+   }
+   
+   .land-text p{
+    font-size: .8rem;
+    
+   }
+   .arrow .landing-text h3 {
+    font-size: .9rem;
+   }
+}
+@media screen and (min-width: 0px) and (max-width:500px) { 
+    .land-text {
+        width: 70%;
+        
+   }
+   
+   .land-text h1{
+    font-size: 1rem;
+
+   }
+   
+   .land-text p{
+    font-size: .5rem;
+    
+   }
+   .arrow .landing-text h3 {
+    font-size: .8rem;
+   }
+}

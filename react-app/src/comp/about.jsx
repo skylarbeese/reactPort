@@ -57,7 +57,7 @@ class About extends Component {
         </div>
      
         <div className="about-text">
-            <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journey as a web developer</h1>
+            <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journey in web development/design</h1>
             <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>
               I create responsive, scalable and visualy intuitive sites. I have worked on projects in a verity of 
               programming languagees. I have a passion for building and making the web come to 
