@@ -60,6 +60,11 @@ class PhotoUi extends Component {
               </p>
             </div>
             </div>
+            <div className="link-site-git">
+            <a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
+            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">
+ <h2>See git repo here</h2></a>
+            </div>
             </div>
         <div className="img-pr">
          {/* <div className="one-con"> */}

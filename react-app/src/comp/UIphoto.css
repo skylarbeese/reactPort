@@ -1,5 +1,9 @@
 .photoUi-con {
     width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .title-div {
     padding-top: 3rem;
@@ -7,7 +11,22 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
+.link-site-git {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.link-site-git a h2{
+  font-size: 1rem;
+  
+}
+.link-site-git a{ 
+    text-decoration: none;
+    color: #000;
+  }
 .img-pr {
     width: 100%;
     background-color: rgb(248, 248, 248);
@@ -72,7 +91,7 @@
     
 }
 .text-des-5 {
-    width: 40%;
+    width: 70%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -86,7 +105,7 @@
     background-color: rgb(65, 65, 65);
 }
 .tex {
-    width: 100%;
+    width: 90%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -514,6 +533,10 @@
       
         
     }
+    .text-des-5 {
+        width: 70%;
+  
+    }
     
 }
 @media screen and (min-width: 0px) and (max-width:1000px) {
@@ -788,12 +811,15 @@
   
         
     }
-    
+    .text-des-5 {
+        width: 80%;
+  
+    }
 }
 @media screen and (min-width: 0px) and (max-width:680px) {
     .title-div {
         padding-top: 3rem;
-        height: 40vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -814,7 +840,7 @@
      
     }
     .tex {
-        width: 100%;
+        width: 90%;
         
     }
     .text-des-5 p {
@@ -1246,5 +1272,11 @@
   
         
     }
-    
+    .text-des-5 {
+        width: 80%;
+  
+    }
+    .text-des-5 h1{
+        font-size: .8rem;
+    }
 }
