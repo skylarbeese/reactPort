@@ -1703,7 +1703,10 @@ display: flex;
   height: 100%;
 
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: initial;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
