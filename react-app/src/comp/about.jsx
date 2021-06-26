@@ -48,7 +48,7 @@ class About extends Component {
         <div className={`grad ${this.state.img ? 'grad-show' : 'grad-hide'}`}></div>
         <div className="about-header-text">
          <div className={`about-title ${this.state.textTile ? 'text-show' : 'text-hide'}`}>
-             <h1>about me</h1>
+             <h1>About me</h1>
              <div className="underline"></div>
          </div>
          <div className="about-info">
@@ -57,7 +57,7 @@ class About extends Component {
         </div>
      
         <div className="about-text">
-            <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journey in web development/design</h1>
+            <h1 className={this.state.textTile ? 'text-title-show' : 'text-title-hide'}>my journey</h1>
             <p className={this.state.textTile ? 'text-para-show' : 'text-para-hide'}>
               I create responsive, scalable and visualy intuitive sites. I have worked on projects in a verity of 
               programming languagees. I have a passion for building and making the web come to 

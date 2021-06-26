@@ -68,9 +68,9 @@ class WeatherUi extends Component {
 
       <div className="img-weath-con">
           <div className="img-weath">
-          <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[2]})`}}></div>
+          <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[24]})`}}></div>
           </div>
-</div> 
+      </div> 
       
 </div> 
      

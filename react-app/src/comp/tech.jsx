@@ -91,7 +91,7 @@ class Tech extends Component {
            </div>
          </div>
          <div className="title-1">
-           <h1>UI/UX design tools I use</h1>
+           <h1>UI design tools I use</h1>
          </div>
          <div className="box-2">
           <div className="lau-con">
@@ -102,7 +102,7 @@ class Tech extends Component {
             <h1>illistrater</h1>
            </div>
            <div className="lau-con">
-            <h1>abode XD</h1>
+            <h1>Adobe XD</h1>
            </div>
            
          </div>
