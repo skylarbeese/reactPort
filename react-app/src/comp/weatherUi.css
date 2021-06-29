@@ -30,15 +30,19 @@
 }
 .img-weath {
     width: 70%;
-    height: 80%;
+    height: 70%;
     
     padding: .5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .image-banner-proj-weat {
     margin-top: 2rem;
     background-color: transparent;
     border-radius: 10px;
-    position: relative;
+ 
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -50,6 +54,7 @@
     background-size: contain;
     border-radius: 10px;
     margin-right: 1rem;
+   
 }
 @media screen and (min-width: 0px) and (max-width:800px) {
     .weat {

@@ -134,7 +134,7 @@ class Ui extends Component {
               </div>
                <div className={`gra-w ${this.state.grid3 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
               <div className="li-text"></div>
-              <div className="gra"></div>
+              <div className="gra star-gra"></div>
               <div className="proje-img">
                <div className="image-banner-proj" style= {{backgroundImage: `url(${Photo[1]})`}}></div>
              </div>
@@ -143,13 +143,14 @@ class Ui extends Component {
          <div className="proj-con" onMouseOver={this.handleMouseEn4}
                     onMouseOut={this.handleMouseLe4}>
               <div className="proj-text">
-                <h1>Prog</h1>
+              <Link to="/comp/uijob"><div className="logo-banner-proj" style= {{backgroundImage: `url(${Photo[39]})`}}></div></Link>
+              
               </div>
               <div className={`gra-w ${this.state.grid4 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
               <div className="li-text"></div>
-              <div className="gra"></div>
+              <div className="gra job-gra"></div>
               <div className="proje-img">
-               <div className="image-banner-proj" style= {{backgroundImage: `url(${Photo[27]})`}}></div>
+               <div className="image-banner-proj job-pro" style= {{backgroundImage: `url(${Photo[4]})`}}></div>
              </div>
          </div>
 

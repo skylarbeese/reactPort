@@ -57,6 +57,10 @@
 .star-gra {
     background-color: rgb(255, 255, 255);
 }
+.job-gra {
+    background-color: black;
+    opacity: .8;
+}
 .proj-con {
     position: relative;
     justify-content: center;
@@ -147,7 +151,11 @@
     opacity: 1;
     transform: translateY(0px);
     transition: .8s;
+    
 } 
+.job-pro {
+    
+}
 @media screen and (min-width: 0px) and (max-width:1000px) {
     .proj-grid {
         width: 95%;

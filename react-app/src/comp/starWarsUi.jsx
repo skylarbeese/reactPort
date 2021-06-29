@@ -53,15 +53,16 @@ class StarWarsUi extends Component {
         <div className="text-des-5">
         <h1>Star Wars API</h1>
               <div className="underl"></div>
-              <p> Photography branded website I worked on the UI and Frond-end development,
+              <p> Created from a star wars API using HTML, CSS, and vanilla JavaScript. the site Allows you to see information about your favorite
+                star wars characters, ships, and movies.
                  
                 
               </p>
             </div>
             </div>
             <div className="link-site-git">
-            <a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
-            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">
+            <a href="https://trusting-swanson-b25497.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
+            <a href="https://github.com/skylarbeese/StarWarsApi.git"  target="_blank" rel="noopener noreferrer">
             <h2>See git repo here</h2></a>
             </div>
             </div>
@@ -83,9 +84,9 @@ class StarWarsUi extends Component {
      
             <div className="tex-1">
             <div className="text-des-link">
-            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">view github here<i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/skylarbeese/StarWarsApi.git"  target="_blank" rel="noopener noreferrer">view github here<i class="fa fa-github" aria-hidden="true"></i>
 </a>
-              <h1><a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
+              <h1><a href="https://trusting-swanson-b25497.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
               <Link to="/comp/ui">go back</Link>
             </div>
             </div>

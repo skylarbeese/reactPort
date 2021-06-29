@@ -127,6 +127,14 @@ class PhotoUi extends Component {
            
            
         </div> 
+        <div className="tex">
+            <div className="text-des-5">
+              <h1>Mockups</h1>
+              <div className="underl"></div>
+              <p>After the site mapping and wireframes we get to work of the final design of the website.
+                 this is how the final design will look </p>
+            </div>
+            </div>
             <div className="img-gal-img-3">
             <div className="th">
              <div className="image-banner-ui-3" style= {{backgroundImage: `url(${Photo[7]})`}}></div>

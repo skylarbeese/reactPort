@@ -33,6 +33,12 @@ const Arr = [
     "/img/logo2.png",
     "/img/logo3.png",
     "/img/logo4.png",
+    "/img/ui29.png",
+    "/img/ui30.png",
+    "/img/ui31.png",
+    "/img/ui32.png",
+    "/img/ui33.png",
+    "/img/lo.png",
 
 ]
     

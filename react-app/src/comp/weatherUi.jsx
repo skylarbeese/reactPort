@@ -56,19 +56,20 @@ class WeatherUi extends Component {
         <div className="text-des-5">
         <h1>Weather API</h1>
               <div className="underl"></div>
-              <p> Photography branded website I worked on the UI and Frond-end development </p>
+              <p>  A Weather app created using an API using javascript frameworks like React.js. The app is built with mobile devices in mind. you 
+                can check out the weather conditions of cities around the world for the current day. </p>
             </div>
             </div>
             <div className="link-site-git">
-            <a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
-            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">
+            <a href="https://relaxed-goldberg-1fd44d.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
+            <a href="https://github.com/skylarbeese/WeatherApp_Api.git"  target="_blank" rel="noopener noreferrer">
             <h2>See git repo here</h2></a>
             </div>
             </div>
 
       <div className="img-weath-con">
           <div className="img-weath">
-          <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[24]})`}}></div>
+          <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[35]})`}}></div>
           </div>
       </div> 
       
@@ -79,9 +80,9 @@ class WeatherUi extends Component {
 
             <div className="tex-1">
             <div className="text-des-link">
-            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">view github here<i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/skylarbeese/WeatherApp_Api.git"  target="_blank" rel="noopener noreferrer">view github here<i class="fa fa-github" aria-hidden="true"></i>
 </a>
-              <h1><a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
+              <h1><a href="https://relaxed-goldberg-1fd44d.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
               <Link to="/comp/ui">go back</Link>
             </div>
 </div> 
