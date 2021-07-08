@@ -6,6 +6,7 @@ import Ui from './comp/UI'
 import StarWarsUi from './comp/starWarsUi'
 import WeatherUi from './comp/weatherUi'
 import Uijob from './comp/uijob'
+import RealUi from './comp/realUi'
 import Land from './comp/land'
 //import About from './comp/about'
 import './App.css';
@@ -24,6 +25,7 @@ class App extends Component {
          <Route path="/comp/starWarsUi" component={StarWarsUi} />
          <Route path="/comp/weatherUi" component={WeatherUi} />
          <Route path="/comp/uijob" component={Uijob} />
+         <Route path="/comp/realUi" component={RealUi} />
         {/* <Route path="/comp/land" component={Land} /> */}
        </Switch>
      </Router>

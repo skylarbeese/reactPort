@@ -12,7 +12,8 @@ class Ui extends Component {
        grid1: false,
        grid2: false,
        grid2: false,
-       grid2: false
+       grid2: false,
+       grid5: false
    }
   }
  handleMouseEn1 = () => {
@@ -62,7 +63,20 @@ class Ui extends Component {
              grid4: false
            
            })
-    
+          }
+           handleMouseEn5 = () => {
+            this.setState({
+              grid5: true
+              
+            })
+           }
+            handleMouseLe5 = () => {
+             this.setState({
+               grid5: false
+             
+             })
+            
+            
  }
   componentDidMount = () => {
     window.addEventListener('scroll', this.handleScroll, true);
@@ -113,6 +127,21 @@ class Ui extends Component {
                <div className="image-banner-proj" style= {{backgroundImage: `url(${Photo[29]})`}}></div>
              </div>
          </div>
+         
+         
+         <div className="proj-con" onMouseOver={this.handleMouseEn5}
+                    onMouseOut={this.handleMouseLe5}>
+              <div className="proj-text">
+              <Link to="/comp/realUi"><div className="logo-banner-proj" style={{backgroundImage: `url(${Photo[45]})`}}></div></Link>
+              </div>
+              <div className={`gra-w ${this.state.grid5 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
+              <div className="li-text"></div>
+              <div className="gra"></div>
+              <div className="proje-img">
+               <div className="image-banner-proj" style= {{backgroundImage: `url(${Photo[40]})`}}></div>
+             </div>
+         </div>
+
 
          <div className="proj-con" onMouseOver={this.handleMouseEn2}
                     onMouseOut={this.handleMouseLe2}>

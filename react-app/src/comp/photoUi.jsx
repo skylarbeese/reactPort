@@ -98,9 +98,9 @@ class PhotoUi extends Component {
            </div>
            <div className="tex">
             <div className="text-des-5">
-              <h1>Bringing to life</h1>
+              <h1>Bringing it to life</h1>
               <div className="underl"></div>
-              <p>Bringing web design to life for the web in diffrent forms of media. </p>
+              <p>Bringing web design to life for different forms of media. </p>
             </div>
             </div>
             <div className="img-gal-img-2">
@@ -113,9 +113,7 @@ class PhotoUi extends Component {
             <div className="text-des-5">
               <h1>Wireframes</h1>
               <div className="underl"></div>
-              <p>Creating preliminary sketches and wireframes
-                 for the initial design of all the pages of the 
-                 site. Planning the flow of the website before 
+              <p>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
                  the final prototype. </p>
             </div>
             </div>
@@ -132,7 +130,7 @@ class PhotoUi extends Component {
               <h1>Mockups</h1>
               <div className="underl"></div>
               <p>After the site mapping and wireframes we get to work of the final design of the website.
-                 this is how the final design will look </p>
+               </p>
             </div>
             </div>
             <div className="img-gal-img-3">

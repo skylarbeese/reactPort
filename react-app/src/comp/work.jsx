@@ -97,6 +97,7 @@ class Work extends Component {
                       </div>
                 </div>
               </div>  
+              
               <div className={`proj-img-con `}  onMouseEnter={this.hoverHandler2}>
                 <div className="project-img proj-2">
                
