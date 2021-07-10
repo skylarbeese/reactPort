@@ -10,15 +10,16 @@ class RealUi extends Component {
     this.state = {
       textTile: false,
       img: false,
-      isMobile: false
-    
+      isMobile: false,
+      offset: 0,
+      off: 0
     }
   
   }
   
   handleWindowResize = () => {
     let lastScroll = window.innerWidth;
-    if(lastScroll > 850) {
+    if(lastScroll < 850) {
       console.log("true")
         this.setState({isMobile: true})
     } else {
@@ -28,13 +29,37 @@ class RealUi extends Component {
     
  //  console.log(lastScroll)
   }
+ /* handleWindowOffset = () => {
+    const parallax = document.querySelector(".image-banner-real ")
+    let scrollPosition = window.pageYOffset
+  
+    parallax.style.transform = `translateY(${scrollPosition * 0.05}px)`
+  } */
+
   componentWillMount() {
     window.addEventListener("resize", this.handleWindowResize);
+   
    } 
- 
+  /* componentWillMount() {
+    window.addEventListener("scroll", this.handleWindowOffset, true);
+   
+   } */
   componentDidMount = () => {
     window.addEventListener('scroll', this.handleScroll, true);
+    //window.addEventListener("scroll", this.handleWindowOffset, true);
+    this.handleWindowResize()
   
+  }
+  componentDidMount = () => {
+    
+   // this.handleWindowOffset()
+  //window.addEventListener("scroll", this.handleWindowOffset, true);
+ /*   window.addEventListener("scroll", function () {
+      const parallax = document.querySelector(".image-banner-real ")
+    let scrollPosition = window.pageYOffset
+  
+    parallax.style.transform = `translateY(${scrollPosition * 0.05}px)`
+    }) */
   }
   handleScroll = () => {
     let lastScrollY = window.scrollY;
@@ -85,31 +110,31 @@ class RealUi extends Component {
           <div className="div-con-real">
              <div className="real-banner">
                  <div className="img-con-real">
-                 <div className="image-banner-real " style= {{backgroundImage: `url(${Photo[40]})`}}></div>
+                 <div className="image-banner-real " style= {{backgroundImage: `url(${Photo[40]})`},
+               {/* {transform: `translateY(${this.state.offset * 0.5}px)`}*/}}></div>
                  </div>
              </div>
              <div className="con-mo">
                  
                      <div className="home-mo">
                          <div className="home-moc">
-                           <div className="image-moc-real" style= {{backgroundImage: `url(${Photo[41]})`}}></div>
+                           <div className="image-moc-real" style= {{backgroundImage: `url(${Photo[41]})`}
+                        }></div>
                          </div>
-                <div className="text-real-con" >        
-                         <div className="text-c">
-                             <h1>Title text</h1>
-                             <p>Bacon ipsum dolor amet bacon pastrami chuck venison, 
-                                 kielbasa sirloin turkey. Frankfurter landjaeger 
-                                 alcatra prosciutto boudin. Chicken rump ham, 
-                                 kevin kielbasa pork belly salami cupim. 
-                                 Tail shoulder pork belly brisket porchetta. 
-                                 Flank pastrami doner rump chislic shoulder.</p>
-                        </div>  
+                         <div className="tex">
+                         <div className="text-des-5">
+              <h1>Wireframes</h1>
+              <div className="underl"></div>
+              <p>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
+                 the final prototype. </p>
+            </div>
+            </div>
                              <div className="home-moc-2">
                            <div className="image-moc-real" style= {{backgroundImage: `url(${Photo[44]})`}}></div>
                            
                          </div>
                         
-                        </div>
+                        
                         
                      </div>
                 
@@ -165,21 +190,18 @@ class RealUi extends Component {
                          <div className="home-moc">
                            <div className="image-moc-real" style= {{backgroundImage: `url(${Photo[41]})`}}></div>
                          </div>
-                       
+                         <div className="text-real-con" >  
                          <div className="text-c">
-                             <h1>Title text</h1>
-                             <p>Bacon ipsum dolor amet bacon pastrami chuck venison, 
-                                 kielbasa sirloin turkey. Frankfurter landjaeger 
-                                 alcatra prosciutto boudin. Chicken rump ham, 
-                                 kevin kielbasa pork belly salami cupim. 
-                                 Tail shoulder pork belly brisket porchetta. 
-                                 Flank pastrami doner rump chislic shoulder.</p>
+                         <h1>Wireframes</h1>
+              <div className="underl-t"></div>
+              <p>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
+                 the final prototype. </p>
                         </div>  
                              <div className="home-moc-2">
                            <div className="image-moc-real" style= {{backgroundImage: `url(${Photo[44]})`}}></div>
                            
                          </div>
-                        
+                        </div>
                         </div>
                    
                 
