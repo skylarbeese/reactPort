@@ -110,8 +110,8 @@ class RealUi extends Component {
           <div className="div-con-real">
              <div className="real-banner">
                  <div className="img-con-real">
-                 <div className="image-banner-real " style= {{backgroundImage: `url(${Photo[40]})`},
-               {/* {transform: `translateY(${this.state.offset * 0.5}px)`}*/}}></div>
+                 <div className="image-banner-real " style= {{backgroundImage: `url(${Photo[40]})`}
+               }></div>
                  </div>
              </div>
              <div className="con-mo">
@@ -182,7 +182,7 @@ class RealUi extends Component {
           <div className="div-con-real">
              <div className="real-banner">
                  <div className="img-con-real">
-                 <div className="image-banner-real " style= {{backgroundImage: `url(${Photo[40]})`}}></div>
+                 <div className="image-banner-real" style={{backgroundImage: `url(${Photo[40]})`}}></div>
                  </div>
              </div>
              <div className="con-mo">

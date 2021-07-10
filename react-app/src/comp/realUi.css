@@ -15,21 +15,7 @@
 .img-con-real {
     width: 100%;
 }
-.image-banner-real {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 100vw;
-    height: 50vh;
-   background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-    background-attachment: fixed;
-}
 
 .con-mo {
     width: 100vw;
@@ -132,6 +118,21 @@
     margin-bottom: .2rem;
     height: 2px;
     background-color: rgb(65, 65, 65);
+}
+.image-banner-real {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+   background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+  
+
+    background-attachment: fixed;
 }
 @media screen and (min-width: 0px) and (max-width:1000px) {
     .home-mo {
@@ -320,21 +321,7 @@
         background-size: contain;
         border-radius: 10px;
     }
-    .image-banner-real {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        width: 100vw;
-        height: 50vh;
-       background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-        background-attachment: fixed;
-    }
+ 
     .home-moc-2 {
        width: 140%;
         height: 140vh; 
@@ -342,21 +329,7 @@
    } 
 } 
 @media screen and (min-width: 0px) and (max-width:650px) {
-    .image-banner-real {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        width: 100vw;
-        height: 50vh;
-       background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        z-index: 1;
-        background-attachment: initial;
-    }
+  
     .img-gal-img-2 {
         width: 100%;
         height: 53vh;
@@ -392,13 +365,10 @@
         margin-right: 1rem;
     }
     .home-moc-2 {
-        bottom: 0;
-        width: 90%;
-        height: 100%;
-       
-         background-color: transparent;
-         transform: translate(-200px, 50px);
-    }
+        width: 140%;
+         height: 120vh; 
+         transform: translate(0px, 50px);
+    } 
    .text-real-con {
        width: 100%;
        height: 140vh;
@@ -408,12 +378,12 @@
        display: flex;
        flex-direction: column;
    }
-    .home-moc-2 {
-      
-       
-         background-color: transparent;
-         transform: translate(0px, 50px);
-    }
+   .image-banner-real {
+  
+  
+
+    background-attachment: initial;
+}
 }
 @media screen and (min-width: 0px) and (max-width:580px) {
     .home-moc  {
@@ -425,14 +395,14 @@
          background-color: transparent;
          transform: translateY(-50px);
      }
-     .home-moc-2 {
-        bottom: 0;
-        width: 140%;
-        height: 100%;
+
+       .home-moc-2 {
        
-         background-color: transparent;
-         transform: translate(0px, 50px);
-    }
+        width: 140%;
+        height: 120vh;
+       
+         
+    } 
    .text-real-con {
        width: 100%;
        height: 140vh;
