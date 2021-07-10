@@ -27,7 +27,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: 1;
+
     background-attachment: fixed;
 }
 
@@ -320,7 +320,21 @@
         background-size: contain;
         border-radius: 10px;
     }
- 
+    .image-banner-real {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100vw;
+        height: 50vh;
+       background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        background-attachment: fixed;
+    }
     .home-moc-2 {
        width: 140%;
         height: 140vh; 

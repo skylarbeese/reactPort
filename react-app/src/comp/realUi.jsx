@@ -165,8 +165,9 @@ class RealUi extends Component {
         <div className="text-des-5">
         <h1>Real Estate website</h1>
               <div className="underl"></div>
-              <p> Photography branded website I worked on the UI and Frond-end development,
-                using Abode XD for designing the layout and React.js for the programming of the website. 
+              <p> A Real-Estate website I worked on the UI design in Abode XD, planning the layout
+                by creating wireframes and mockups. Then programmed the front-end with
+                HTML, CSS and the JS framework React. 
                
               </p>
             </div>
