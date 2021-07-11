@@ -10,6 +10,7 @@ class PhotoUi extends Component {
     this.state = {
       textTile: false,
       img: false
+
     
     }
   
