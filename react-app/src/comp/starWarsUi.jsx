@@ -71,13 +71,13 @@ class StarWarsUi extends Component {
             <div className="site-con-img">
                 <div className="img-star-con">
                     <div className="img-star">
-                    <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[2]})`}}></div>
+                    <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[48]})`}}></div>
                     </div>
                     <div className="img-star">
                     <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[2]})`}}></div>
                     </div>
                     <div className="img-star">
-                    <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[2]})`}}></div>
+                    <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[49]})`}}></div>
                     </div>
                 </div>
             </div>

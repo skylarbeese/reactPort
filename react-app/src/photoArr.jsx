@@ -47,6 +47,8 @@ const Arr = [
     "/img/logo5.png",
     "/img/phone1.png",
     "/img/phone2.png",
+    "/img/starwars.jpg",
+    "/img/site2.jpg",
 ]
     
 
