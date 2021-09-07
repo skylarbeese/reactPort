@@ -9,9 +9,12 @@ class PhotoUi extends Component {
     this.myRef = React.createRef()
     this.state = {
       textTile: false,
-      img: false
-
-    
+      img: false,
+      imgTil: false,
+      cellTil: false,
+      textTil: false,
+      text2Til: false,
+      text3Til: false,
     }
   
   }
@@ -22,6 +25,17 @@ class PhotoUi extends Component {
   }
   handleScroll = () => {
     let lastScrollY = window.scrollY;
+    console.log(lastScrollY)
+    if (lastScrollY > 500 && lastScrollY < 1700) {
+      //   console.log("yes")
+         this.setState({
+           cellTil: true
+         })
+    } else {
+         this.setState({
+           cellTil: false
+           })
+      }
        if (lastScrollY > 500 && lastScrollY < 1700) {
       //   console.log("yes")
          this.setState({
@@ -42,6 +56,46 @@ class PhotoUi extends Component {
           img: false
           })
      }
+     if (lastScrollY > 1800 && lastScrollY < 3000) {
+      //   console.log("yes")
+         this.setState({
+           textTil: true
+         })
+    } else {
+         this.setState({
+           textTil: false
+           })
+      }
+     if (lastScrollY > 1800 && lastScrollY < 4000) {
+      //   console.log("yes")
+         this.setState({
+           imgTil: true
+         })
+    } else {
+         this.setState({
+           imgTil: false
+           })
+      }
+      if (lastScrollY > 2000 && lastScrollY < 4000) {
+        //   console.log("yes")
+           this.setState({
+             text2Til: true
+           })
+      } else {
+           this.setState({
+             text2Til: false
+             })
+        }
+        if (lastScrollY > 2400 && lastScrollY < 4000) {
+          //   console.log("yes")
+             this.setState({
+               text3Til: true
+             })
+        } else {
+             this.setState({
+               text3Til: false
+               })
+          }
     } 
   render() {
   return (
@@ -54,10 +108,7 @@ class PhotoUi extends Component {
         <div className="text-des-5">
         <h1>Photo website</h1>
               <div className="underl"></div>
-              <p> Photography branded website I worked on the UI and Frond-end development,
-                using Abode XD for designing the layout and React.js for the programming of the website. 
-                <a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here </a>
-                or scroll down to view my git hub.
+              <p> Photography portfolio website. Developed in React.js and designed in Abode XD.
               </p>
             </div>
             </div>
@@ -79,9 +130,9 @@ class PhotoUi extends Component {
         </div> 
             <div className="img-gal-img-1">
             
-             <div className="image-banner-ui-1 ui-1" style= {{backgroundImage: `url(${Photo[24]})`}}></div>
+             <div className={`image-banner-ui-1 ui-1 ${this.state.cellTil ? "img-banner-show-right" : "img-banner-hide-right"}`} style= {{backgroundImage: `url(${Photo[24]})`}}></div>
            
-             <div className="image-banner-ui-1 ui-2" style= {{backgroundImage: `url(${Photo[25]})`}}></div>
+             <div className={`image-banner-ui-1 ui-2 ${this.state.cellTil ? "img-banner-show-left" : "img-banner-hide-left"}`} style= {{backgroundImage: `url(${Photo[25]})`}}></div>
             
             
          </div> 
@@ -99,22 +150,22 @@ class PhotoUi extends Component {
            </div>
            <div className="tex">
             <div className="text-des-5">
-              <h1>Bringing it to life</h1>
-              <div className="underl"></div>
-              <p>Bringing web design to life for different forms of media. </p>
+              <h1 className={this.state.textTil ? "show-header-1" : "hide-header-1"}>Bringing it to life</h1>
+              <div className={`underl ${this.state.textTil ? "show-under-1" : "hide-under-1"}`}></div>
+              <p className={this.state.textTil ? "show-p-1" : "hide-p-1"}>Bringing web design to life for different forms of media. </p>
             </div>
             </div>
             <div className="img-gal-img-2">
             <div className="te-con">
-             <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[20]})`}}></div>
-             <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[21]})`}}></div>
+             <div className={`image-banner-ui-2 ${this.state.imgTil ? "img-banner-show-right" : "img-banner-hide-right"}`} style= {{backgroundImage: `url(${Photo[20]})`}}></div>
+             <div className={`image-banner-ui-2 ${this.state.imgTil ? "img-banner-show-left" : "img-banner-hide-left"}`} style= {{backgroundImage: `url(${Photo[21]})`}}></div>
             </div>
             </div>
             <div className="tex">
             <div className="text-des-5">
-              <h1>Wireframes</h1>
-              <div className="underl"></div>
-              <p>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
+              <h1 className={this.state.text2Til ? "show-header-1" : "hide-header-1"}>Wireframes</h1>
+              <div className={`underl ${this.state.text2Til ? "show-under-1" : "hide-under-1"}`}></div>
+              <p className={this.state.text2Til ? "show-p-1" : "hide-p-1"}>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
                  the final prototype. </p>
             </div>
             </div>
@@ -128,9 +179,9 @@ class PhotoUi extends Component {
         </div> 
         <div className="tex">
             <div className="text-des-5">
-              <h1>Mockups</h1>
-              <div className="underl"></div>
-              <p>After the site mapping and wireframes we get to work of the final design of the website.
+              <h1 className={this.state.text3Til ? "show-header-1" : "hide-header-1"}>Mockups</h1>
+              <div className={`underl ${this.state.text3Til ? "show-under-1" : "hide-under-1"}`}></div>
+              <p className={this.state.text3Til ? "show-p-1" : "hide-p-1"}>After the site mapping and wireframes we get to work of the final design of the website.
                </p>
             </div>
             </div>

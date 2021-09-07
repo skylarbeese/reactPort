@@ -53,30 +53,99 @@ class WeatherUi extends Component {
 
       <div className="weath-text">
         <div className="tex">
-        <div className="text-des-5">
+        <div className="text-des-5 wet-5">
         <h1>Weather API</h1>
               <div className="underl"></div>
-              <p>  A Weather app created using an API using javascript frameworks like React.js. The app is built with mobile devices in mind. you 
-                can check out the weather conditions of cities around the world for the current day. </p>
+              <p>   A weather app designed for mobile devices.  </p>
             </div>
             </div>
-            <div className="link-site-git">
-            <a href="https://relaxed-goldberg-1fd44d.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
-            <a href="https://github.com/skylarbeese/WeatherApp_Api.git"  target="_blank" rel="noopener noreferrer">
-            <h2>See git repo here</h2></a>
+           
+            
             </div>
+
+
+
+            <div className="img-gal-img-4">
+            
+
+            <div class="plan-con">
+            <div class="tools">
+            <div class="tools-text">
+               <div class="tool-text">
+                   
+                 <div class="tool-header"><h1>tools</h1></div>
+                 <div class="tool-line"></div>
+                 <div class="tool-para"><h2>Abode XD</h2></div>
+               </div>
+               <div class="role-text">
+                 <div class="tool-header"><h1>My Role</h1></div>
+                 <div class="tool-line"></div>
+                 <div class="tool-para"><h2>UI Designer</h2>
+                 
+                 </div>
+                 <div class="tool-para"><h2>Front end development</h2>
+                 
+                 </div>
+               </div>
+               <div class="button-con">
+               <button><a href="https://xd.adobe.com/view/7e1a5a29-1ad8-4d2c-88d1-e0b1ad869166-2b49/">Prototype</a></button>
+               </div>
+             </div>
+             <div class="line-h"></div>
             </div>
+            <div class="plan">
+               <div class="plan-text">
+                 <div class="plan-header">
+                   <h1>The Plan</h1>
+                 </div>
+                 <div class="line-v"></div>
+                 <div class="plan-para"><p > This project will be an update to the original design and layout of the app. I will be redesigning the UI of the app that I previously developed in React.</p></div>
+                    <div className="plan-header ga"><h1>goals</h1></div>
+                    <div class="plan-para"><p>Create a better, more modern looking layout for the site</p></div>
+                      <div class="plan-para"><p>Design a menu to allow the user more options to change the look of the app</p></div>
+               </div>
+            </div>
+           </div>
+   </div> 
+
+
+
+
+
+
+
+
+
 
       <div className="img-weath-con">
           <div className="img-weath">
-          <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[35]})`}}></div>
+          <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[59]})`}}></div>
+          <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[60]})`}}></div>
           </div>
       </div> 
       
 </div> 
      
 
-
+<div className="tex">
+            <div className="text-des-5">
+              <h1 className={"show-header-1"}>Final steps</h1>
+              <div className={`underl li${ "show-under-1"}`}></div>
+              <p className={"show-p-1"}>After completing the wireframes, we get to flesh out the final design of the app. By adding the photos, color schemes of the light and dark modes. Then finally Prototyping the app in Abode XD.
+               </p>
+            </div>
+            
+            </div>
+            <div className="img-final-con-light">
+              <div className="img-final-1">
+               <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[61]})`}}></div>
+               <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[62]})`}}></div>
+               <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[63]})`}}></div>
+                <div className="image-banner-proj-weat " style= {{backgroundImage: `url(${Photo[64]})`}}></div>
+               </div>
+            </div>
+         
+       
 
             <div className="tex-1">
             <div className="text-des-link">

@@ -13,7 +13,8 @@ class Ui extends Component {
        grid2: false,
        grid2: false,
        grid2: false,
-       grid5: false
+       grid5: false,
+       til: false
    }
   }
  handleMouseEn1 = () => {
@@ -84,7 +85,16 @@ class Ui extends Component {
   }
   handleScroll = () => {
     let lastScrollY = window.scrollY;
-    if (lastScrollY > 2000 && lastScrollY < 3000) {
+    if (lastScrollY >= 0) {
+       this.setState({
+          til: true
+      })
+    } else {
+       this.setState({
+        til: false
+      })
+    }
+    if  (lastScrollY > 2000 && lastScrollY < 3000) {
         console.log("yesth")
         this.setState({
             color: true
@@ -94,6 +104,7 @@ class Ui extends Component {
         console.log("noth")
         this.setState({
             color: false
+            
         })
 
     }
@@ -105,7 +116,7 @@ class Ui extends Component {
    <Nav />
       <div className={`Ui-con ${this.state.color ? 'black' : null}`}>
         <div className="ui-div-con">
-           <div className="proj-title">
+           <div className={`proj-title `}>
              <h1>Projects</h1>
              <div className="unde"></div>
              <p>Front-end development and UI design projects</p>
@@ -118,7 +129,7 @@ class Ui extends Component {
             <div className="proj-con" onMouseOver={this.handleMouseEn1}
                     onMouseOut={this.handleMouseLe1}>
               <div className="proj-text">
-              <Link to="/comp/photoUi"><div className="logo-banner-proj" style= {{backgroundImage: `url(${Photo[30]})`}}></div></Link>
+              <Link to="/comp/photoU"><div className="logo-banner-proj" style= {{backgroundImage: `url(${Photo[30]})`}}></div></Link>
               </div>
               <div className={`gra-w ${this.state.grid1 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
               <div className="li-text"></div>
@@ -159,7 +170,7 @@ class Ui extends Component {
          <div className="proj-con" onMouseOver={this.handleMouseEn3}
                     onMouseOut={this.handleMouseLe3}>
               <div className="proj-text">
-              <Link to="/comp/weatherUi"><h1>Prog</h1></Link>
+              <Link to="/comp/weatherUi"><h1>Weather App</h1></Link>
               </div>
                <div className={`gra-w ${this.state.grid3 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
               <div className="li-text"></div>
@@ -169,7 +180,7 @@ class Ui extends Component {
              </div>
          </div>
          
-         <div className="proj-con" onMouseOver={this.handleMouseEn4}
+  { /*      <div className="proj-con" onMouseOver={this.handleMouseEn4}
                     onMouseOut={this.handleMouseLe4}>
               <div className="proj-text">
               <Link to="/comp/uijob"><div className="logo-banner-proj" style= {{backgroundImage: `url(${Photo[39]})`}}></div></Link>
@@ -182,7 +193,7 @@ class Ui extends Component {
                <div className="image-banner-proj job-pro" style= {{backgroundImage: `url(${Photo[4]})`}}></div>
              </div>
          </div>
-
+  */}
          </div>
        </div>
       </div>

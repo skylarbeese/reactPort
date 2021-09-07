@@ -94,9 +94,8 @@ class RealUi extends Component {
         <div className="text-des-5">
         <h1>Real Estate website</h1>
               <div className="underl"></div>
-              <p> Photography branded website I worked on the UI and Frond-end development,
-                using Abode XD for designing the layout and React.js for the programming of the website. 
-               
+              <p> 
+              A Real-Estate website designed using abode XD.
               </p>
             </div>
             </div>
@@ -106,6 +105,45 @@ class RealUi extends Component {
  <h2>See git repo here</h2></a>
             </div>
             </div>
+        
+            <div className="img-gal-img-4">
+            
+
+            <div class="plan-con">
+            <div class="tools">
+            <div class="tools-text">
+               <div class="tool-text">
+                   
+                 <div class="tool-header"><h1>tools</h1></div>
+                 <div class="tool-line"></div>
+                 <div class="tool-para"><h2>Abode XD</h2></div>
+               </div>
+               <div class="role-text">
+                 <div class="tool-header"><h1>My Role</h1></div>
+                 <div class="tool-line"></div>
+                 <div class="tool-para"><h2>UI Designer</h2>
+                 
+                 </div>
+               </div>
+               <div class="button-con">
+               <button><a href="https://xd.adobe.com/view/db04b0d7-d3e6-4da5-896f-0fa48d2cec54-8e57/">Prototype</a></button>
+               </div>
+             </div>
+             <div class="line-h"></div>
+            </div>
+            <div class="plan">
+               <div class="plan-text">
+                 <div class="plan-header">
+                   <h1>The Plan</h1>
+                 </div>
+                 <div class="line-v"></div>
+                 <div class="plan-para"><p >the plan is to design and prototype a website that can display real estate that the user would want to buy.</p></div>
+               </div>
+            </div>
+           </div>
+           </div>
+
+
 
           <div className="div-con-real">
              <div className="real-banner">
@@ -123,10 +161,10 @@ class RealUi extends Component {
                          </div>
                          <div className="tex">
                          <div className="text-des-5">
-              <h1>Wireframes</h1>
+              <h1> The design proccess</h1>
               <div className="underl"></div>
-              <p>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
-                 the final prototype. </p>
+              <p>After the site mapping and wireframes we get to work of the final design of the website. I wanted to create a landing page with previews of the houses that are availible on the top banner so that users could click through to view the diffirent propprties on the site.
+                 </p>
             </div>
             </div>
                              <div className="home-moc-2">
@@ -152,7 +190,7 @@ class RealUi extends Component {
             <div className="text-des-link">
             <a href="https://github.com/skylarbeese/react-reEs.git"  target="_blank" rel="noopener noreferrer">view github here<i class="fa fa-github" aria-hidden="true"></i>
 </a>
-              <h1><a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
+              <h1><a href="https://github.com/skylarbeese/react-reEs.git"  target="_blank" rel="noopener noreferrer">view the full site here!</a></h1>
               <Link to="/comp/ui">go back</Link>
             </div>
             </div>
@@ -165,19 +203,61 @@ class RealUi extends Component {
         <div className="text-des-5">
         <h1>Real Estate website</h1>
               <div className="underl"></div>
-              <p> A Real-Estate website I worked on the UI design in Abode XD, planning the layout
-                by creating wireframes and mockups. Then programmed the front-end with
-                HTML, CSS and the JS framework React. 
+              <p> A Real-Estate website designed using abode XD.
                
               </p>
             </div>
             </div>
-            <div className="link-site-git">
-            <a href="https://stoic-lovelace-987189.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
+          {/*  <div className="link-site-git">
+            <a href="https://cocky-perlman-7185c7.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
             <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">
  <h2>See git repo here</h2></a>
+  </div> */}
             </div>
+
+            <div className="img-gal-img-4">
+            
+
+            <div class="plan-con">
+            <div class="tools">
+            <div class="tools-text">
+               <div class="tool-text">
+                   
+                 <div class="tool-header"><h1>tools</h1></div>
+                 <div class="tool-line"></div>
+                 <div class="tool-para"><h2>Abode XD</h2></div>
+               </div>
+               <div class="role-text">
+                 <div class="tool-header"><h1>My Role</h1></div>
+                 <div class="tool-line"></div>
+                 <div class="tool-para"><h2>UI Designer</h2>
+                 
+                 </div>
+               </div>
+               <div class="button-con">
+               <button><a href="https://xd.adobe.com/view/d1e0d19d-dac3-4f3e-9162-7d460650d393-84b3/">Prototype</a></button>
+               </div>
+             </div>
+             <div class="line-h"></div>
             </div>
+            <div class="plan">
+               <div class="plan-text">
+                 <div class="plan-header">
+                   <h1>The Plan</h1>
+                 </div>
+                 <div class="line-v"></div>
+                 <div class="plan-para"><p >the plan is to design and prototype a website that can display real estate that the user would want to buy.</p></div>
+               </div>
+            </div>
+           </div>
+           </div>
+
+
+
+
+
+
+
 
           <div className="div-con-real">
              <div className="real-banner">
@@ -193,10 +273,9 @@ class RealUi extends Component {
                          </div>
                          <div className="text-real-con" >  
                          <div className="text-c">
-                         <h1>Wireframes</h1>
+                         <h1>The design proccess</h1>
               <div className="underl-t"></div>
-              <p>Creating preliminary sketches and wireframes for the initial design of all the pages of the site. Planning the flow of the website before 
-                 the final prototype. </p>
+              <p>After the site mapping and wireframes we get to work of the final design of the website. I wanted to create a landing page with previews of the houses that are availible on the top banner so that users could click through to view the diffirent propprties on the site. </p>
                         </div>  
                              <div className="home-moc-2">
                            <div className="image-moc-real" style= {{backgroundImage: `url(${Photo[44]})`}}></div>

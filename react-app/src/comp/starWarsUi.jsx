@@ -53,8 +53,7 @@ class StarWarsUi extends Component {
         <div className="text-des-5">
         <h1>Star Wars API</h1>
               <div className="underl"></div>
-              <p> Created from a star wars API using HTML, CSS, and vanilla JavaScript. the site Allows you to see information about your favorite
-                star wars characters, ships, and movies.
+              <p> This website was created from a star wars API using HTML, CSS, and vanilla JavaScript. the site Allows you to see information about your favorite star wars characters, ships, and movies.
                  
                 
               </p>

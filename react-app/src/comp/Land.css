@@ -52,6 +52,20 @@
     
     background-color: rgb(231, 230, 230);
 }
+@keyframes slidersText{
+     0% {
+        transform: translateY(-3px);
+     }
+     50% {
+        transform: translateY(0px);
+     }
+     70% {
+        transform: translateY(-2px);
+     }
+  }
+/*.arrow-start {
+    animation:  slidersText 1s infinite;
+}*/
 .arrow .landing-text h3 {
     font-size: 1rem;
     letter-spacing: 2px;

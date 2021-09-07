@@ -49,6 +49,21 @@ const Arr = [
     "/img/phone2.png",
     "/img/starwars.jpg",
     "/img/site2.jpg",
+    "/img/photoContact.png",
+    "/img/photoPrint.png",
+    "/img/photoContactGray.png",
+    "/img/photoPrintGray.png",
+    "/img/photoGalGray.png",
+    "/img/photoHomeGray.png",
+    "/img/gray.png",
+    "/img/finalG.png",
+    "/img/siteM.png",
+    "/img/surfaseC.png",
+    "/img/surfaseCMenu.png",
+    "/img/lightMenu.png",
+    "/img/light.png",
+    "/img/darkMenu.png",
+    "/img/dark.png",
 ]
     
 

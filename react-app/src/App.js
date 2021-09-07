@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Home from './comp/home'
 import Contact from './comp/contact'
-import PhotoUi from './comp/photoUi'
+import PhotoU from './comp/PhotoU'
 import Ui from './comp/UI'
 import StarWarsUi from './comp/starWarsUi'
 import WeatherUi from './comp/weatherUi'
@@ -19,9 +19,9 @@ class App extends Component {
        <Switch>
          <Route path="/" component={Home} exact/>
          <Route path="/comp/contact" component={Contact} /> 
-         <Route path="/comp/photoUi" component={PhotoUi} />
+         <Route path="/comp/PhotoU" component={PhotoU} />
          <Route path="/comp/ui" component={Ui} />
-         <Route path="/comp/photoUi" component={PhotoUi} />
+         <Route path="/comp/photoU" component={PhotoU} />
          <Route path="/comp/starWarsUi" component={StarWarsUi} />
          <Route path="/comp/weatherUi" component={WeatherUi} />
          <Route path="/comp/uijob" component={Uijob} />

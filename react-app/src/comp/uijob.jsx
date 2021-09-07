@@ -52,8 +52,7 @@ class Uijob extends Component {
         <div className="text-des-5">
         <h1>Job lister website</h1>
               <div className="underl"></div>
-              <p> The site is a job listing website created using PHP and MySql. the styles are created using 
-                CSS and Bootstrap. The site allows the user to create their out listing or search for a specific job.
+              <p> A job listing website was created using PHP and MySql.
               </p>
             </div>
             </div>

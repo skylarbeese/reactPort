@@ -16,21 +16,21 @@ class Land extends Component {
             arrow: false,
            
           }
-       
-        
-      
-     
       }
-     
+      componentDidMount = () => {
+        window.addEventListener('scroll', this.handleScroll, true);
+      
+      }
       handleScroll = () => {
         let lastScrollY = window.scrollY;
          
-     if(lastScrollY > 10) {
+     if(lastScrollY > 4) {
              console.log("yes")
              this.setState({
                arrow: true
              })
         } else {
+          console.log("no")
              this.setState({
                arrow: false
             
@@ -59,7 +59,7 @@ class Land extends Component {
             <div className="landing-text">
                <h3>click to see more on my page</h3>
             </div>
-            <h2 className={this.state.arrow ? "an-start" : ""} onClick={this.scrollToTop}><i class="fas fa-angle-down"></i></h2>
+            <h2 className={this.state.arrow ? "arrow-start" : ""} onClick={this.scrollToTop}><i class="fas fa-angle-down"></i></h2>
         </div>
      </div>
  </div>

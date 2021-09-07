@@ -684,6 +684,20 @@ display: flex;
     margin-top: 2rem;
     
   }
+  .about-text p { 
+  color: white ;
+  }
+  .tech-con {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .title-1 h1 {
+    color: white;
+  }
+  .lau-con h1 {
+    color: white;
+  }
   .underline-header-work{
     width: 90%;
     height: 2px;
