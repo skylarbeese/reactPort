@@ -154,7 +154,7 @@ class Ui extends Component {
          </div>
 
 
-         <div className="proj-con" onMouseOver={this.handleMouseEn2}
+   { /*     <div className="proj-con" onMouseOver={this.handleMouseEn2}
                     onMouseOut={this.handleMouseLe2}>
          <div className="proj-text">
               <Link to="/comp/starWarsUi"><div className="logo-banner-proj" style= {{backgroundImage: `url(${Photo[32]})`}}></div></Link>
@@ -165,7 +165,7 @@ class Ui extends Component {
               <div className="proje-img">
                <div className="image-banner-proj " style= {{backgroundImage: `url(${Photo[2]})`}}></div>
              </div>
-         </div>
+  </div> */}
 
          <div className="proj-con" onMouseOver={this.handleMouseEn3}
                     onMouseOut={this.handleMouseLe3}>
@@ -173,6 +173,19 @@ class Ui extends Component {
               <Link to="/comp/weatherUi"><h1>Weather App</h1></Link>
               </div>
                <div className={`gra-w ${this.state.grid3 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
+              <div className="li-text"></div>
+              <div className="gra star-gra"></div>
+              <div className="proje-img">
+               <div className="image-banner-proj" style= {{backgroundImage: `url(${Photo[74]})`}}></div>
+             </div>
+         </div>
+
+         <div className="proj-con" onMouseOver={this.handleMouseEn4}
+                    onMouseOut={this.handleMouseLe4}>
+              <div className="proj-text">
+              <Link to="/comp/Cal"><h1>Calender app</h1></Link>
+              </div>
+               <div className={`gra-w ${this.state.grid4 ? 'grid-w-show' : 'grid-w-hide'}` }></div>
               <div className="li-text"></div>
               <div className="gra star-gra"></div>
               <div className="proje-img">

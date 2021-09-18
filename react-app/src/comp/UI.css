@@ -102,7 +102,7 @@
     z-index: 2;
 }
 .star-gra {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 .job-gra {
     background-color: black;
@@ -161,7 +161,7 @@
     flex-direction: column;
 }
 .proj-text a h1{
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 .logo-banner-proj {
     width: 40%;

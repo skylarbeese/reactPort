@@ -95,13 +95,13 @@ class RealUi extends Component {
         <h1>Real Estate website</h1>
               <div className="underl"></div>
               <p> 
-              A Real-Estate website designed using abode XD.
+              A Real-Estate website designed using abode XD and developed in React.js.
               </p>
             </div>
             </div>
             <div className="link-site-git">
             <a href="https://cocky-perlman-7185c7.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
-            <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/skylarbeese/react-reEs.git"  target="_blank" rel="noopener noreferrer">
  <h2>See git repo here</h2></a>
             </div>
             </div>
@@ -117,12 +117,13 @@ class RealUi extends Component {
                  <div class="tool-header"><h1>tools</h1></div>
                  <div class="tool-line"></div>
                  <div class="tool-para"><h2>Abode XD</h2></div>
+                 <div class="tool-para"><h2>React.js</h2></div>
                </div>
                <div class="role-text">
                  <div class="tool-header"><h1>My Role</h1></div>
                  <div class="tool-line"></div>
-                 <div class="tool-para"><h2>UI Designer</h2>
-                 
+                 <div class="tool-para"><h2>UI Designer</h2></div>
+                 <div class="tool-para"><h2>Front-end developer</h2>
                  </div>
                </div>
                <div class="button-con">
@@ -137,7 +138,8 @@ class RealUi extends Component {
                    <h1>The Plan</h1>
                  </div>
                  <div class="line-v"></div>
-                 <div class="plan-para"><p >the plan is to design and prototype a website that can display real estate that the user would want to buy.</p></div>
+                 <div class="plan-para"><p >The plan is to design and prototype a website that can display real estate that the user would want to buy. After the design process is finished
+                   I will develop the site in React.js</p></div>
                </div>
             </div>
            </div>
@@ -163,7 +165,7 @@ class RealUi extends Component {
                          <div className="text-des-5">
               <h1> The design proccess</h1>
               <div className="underl"></div>
-              <p>After the site mapping and wireframes we get to work of the final design of the website. I wanted to create a landing page with previews of the houses that are availible on the top banner so that users could click through to view the diffirent propprties on the site.
+              <p>After the site mapping and wireframes, we get to work on the final design of the website. I wanted to create a landing page with previews of the properties available on the top banner so that users could click through to view the different properties on the site.
                  </p>
             </div>
             </div>

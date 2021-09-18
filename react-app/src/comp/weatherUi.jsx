@@ -54,12 +54,16 @@ class WeatherUi extends Component {
       <div className="weath-text">
         <div className="tex">
         <div className="text-des-5 wet-5">
-        <h1>Weather API</h1>
+        <h1>Weather App</h1>
               <div className="underl"></div>
-              <p>   A weather app designed for mobile devices.  </p>
+              <p>   A weather app designed for mobile devices. This app was created from a weather API. </p>
             </div>
             </div>
-           
+            <div className="link-site-git">
+            <a href="https://relaxed-goldberg-1fd44d.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
+            <a href="https://github.com/skylarbeese/WeatherApp_Api.git"  target="_blank" rel="noopener noreferrer">
+ <h2>See git repo here</h2></a>
+            </div>
             
             </div>
 
@@ -99,10 +103,10 @@ class WeatherUi extends Component {
                    <h1>The Plan</h1>
                  </div>
                  <div class="line-v"></div>
-                 <div class="plan-para"><p > This project will be an update to the original design and layout of the app. I will be redesigning the UI of the app that I previously developed in React.</p></div>
+                 <div class="plan-para"><p > This project will be an update to the original design and layout of the app. I will be redesigning the UI of the app developed in React.</p></div>
                     <div className="plan-header ga"><h1>goals</h1></div>
-                    <div class="plan-para"><p>Create a better, more modern looking layout for the site</p></div>
-                      <div class="plan-para"><p>Design a menu to allow the user more options to change the look of the app</p></div>
+                    <div class="plan-para"><p>Create a better, more modern looking UI for the site.</p></div>
+                      <div class="plan-para"><p>Design a sliding menu to allow the user more options to change the look of the app's interface.</p></div>
                </div>
             </div>
            </div>
@@ -110,7 +114,17 @@ class WeatherUi extends Component {
 
 
 
-
+   <div className="tex">
+            <div className="text-des-5">
+              <h1 className={ "show-header-1"}>wireframes</h1>
+              <div className={`underl li${ "show-under-1" }`}></div>
+              <p className={ "show-p-1" }>
+              I start by wireframing the new design layout, getting an idea of what I want the new user interface of the site to be like.
+                 
+               </p>
+            </div>
+            
+            </div>
 
 
 
@@ -131,7 +145,7 @@ class WeatherUi extends Component {
             <div className="text-des-5">
               <h1 className={"show-header-1"}>Final steps</h1>
               <div className={`underl li${ "show-under-1"}`}></div>
-              <p className={"show-p-1"}>After completing the wireframes, we get to flesh out the final design of the app. By adding the photos, color schemes of the light and dark modes. Then finally Prototyping the app in Abode XD.
+              <p className={"show-p-1"}>After completing the wireframes, we get to flesh out the final design of the app. Adding the photos and color schemes of the light and dark modes. Then completing the Prototyping of the app in Abode XD.
                </p>
             </div>
             

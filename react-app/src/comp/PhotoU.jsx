@@ -131,6 +131,7 @@ class PhotoU extends Component {
               <div class="tool-header"><h1>tools</h1></div>
               <div class="tool-line"></div>
               <div class="tool-para"><h2>Abode XD</h2></div>
+              <div class="tool-para"><h2>React.js</h2></div>
             </div>
             <div class="role-text">
               <div class="tool-header"><h1>My Role</h1></div>
@@ -151,13 +152,13 @@ class PhotoU extends Component {
                 <h1>The Plan</h1>
               </div>
               <div class="line-v"></div>
-              <div class="plan-para"><p >Over the course of the project I will be working to create a branded website 
-                for a local photographer to showcase work and engage with clients.</p></div>
+              <div class="plan-para"><p >Throughout the project, I will be working to create a branded website 
+                for a local photographer to showcase their work and engage with clients.</p></div>
                  <div className="plan-header ga"><h1>goals</h1></div>
                  <div class="plan-para"><p>Create a layout to display the body of 
-                   work if the artist that is engage and will be intresting of the user.</p></div>
-                   <div class="plan-para"><p>Design the site so that the user will get the feel of what the artist
-                     style and work is about. The theme should match the style of the photographers work.</p></div>
+                   work of the artist that is engaging and will be interesting to the user.</p></div>
+                   <div class="plan-para"><p>Design the site so that the user will feel what the artist's style and work are. The theme should match the style of the photographer's work.</p></div>
+                   <div class="plan-para"><p>Develop the site using React.js after the final design mockups are finished.</p></div>
             </div>
          </div>
         </div>
@@ -187,16 +188,21 @@ class PhotoU extends Component {
   </div> */}
         
          </div>
-         <div className="tex">
+     
+     
+
+            <div className="tex">
             <div className="text-des-5">
-              <h1 className={"show-header-1"}>Research</h1>
-              <div className="underl show-under-1"></div>
-              <p className="show-p-1" >In order to start designing the layout of the site I need to know how other similar sites have displayed their content and ways they have gone about sharing their portfolio online.  
-Goals
-Identify the best way to display portfolio content that gives the user the feeling of what the artist is about as well as their style.
- </p>
+              <h1 className={ "show-header-1"}>Finding The Problem</h1>
+              <div className={`underl li${ "show-under-1" }`}></div>
+              <p className={ "show-p-1" }>
+               I start by identifying the goals that be to be fullfilled in this project. In this case, how to engage with
+               the audience by creating a place to view the artists work and learn what they are about.
+                 
+               </p>
             </div>
-            </div>
+          </div> 
+
         {/*    <div className="img-gal-img-3">
             <div className="th">
              <div className="image-banner-ui-3" style= {{backgroundImage: `url(${Photo[15]})`}}></div>
@@ -212,7 +218,7 @@ Identify the best way to display portfolio content that gives the user the feeli
               <div className="map-text">
                   <h1>Site map</h1>
                   <div className="underl"></div>
-                  <p>Before anything else the Information Architecture  has to be laid out to show how the content will flow through the site.</p>
+                  <p>Before anything else the Information Architecture has to be laid out to show how the content will flow through the site.</p>
               </div>
           </div>
           <div className="img-map">
@@ -262,7 +268,8 @@ Identify the best way to display portfolio content that gives the user the feeli
             <div className="text-des-5">
               <h1 className={this.state.text3Til ? "show-header-1" : "hide-header-1"}>Final</h1>
               <div className={`underl li${this.state.text3Til ? "show-under-1" : "hide-under-1"}`}></div>
-              <p className={this.state.text3Til ? "show-p-1" : "hide-p-1"}>After the site mapping and wireframes we get to work of the final design of the website.
+              <p className={this.state.text3Til ? "show-p-1" : "hide-p-1"}>After the site mapping and wireframes are completed we get to work of the final design of the website. This will
+              be the final stage of placing the content, color, and typography on the pages. The final result will be what the website will look like when done.
                </p>
             </div>
             

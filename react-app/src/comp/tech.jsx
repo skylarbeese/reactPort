@@ -99,6 +99,10 @@ class Tech extends Component {
             <h1>illistrater</h1>
            </div>
            <div className="lau-con">
+        
+            <h1>Figma</h1>
+           </div>
+           <div className="lau-con">
             <h1>Adobe XD</h1>
            </div>
            
