@@ -58,12 +58,13 @@ class WeatherUi extends Component {
               <div className="underl"></div>
               <p>   A weather app designed for mobile devices. This app was created from a weather API. </p>
             </div>
-            </div>
             <div className="link-site-git">
             <a href="https://relaxed-goldberg-1fd44d.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
             <a href="https://github.com/skylarbeese/WeatherApp_Api.git"  target="_blank" rel="noopener noreferrer">
  <h2>See git repo here</h2></a>
             </div>
+            </div>
+          
             
             </div>
 

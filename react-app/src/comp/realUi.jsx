@@ -98,12 +98,13 @@ class RealUi extends Component {
               A Real-Estate website designed using abode XD and developed in React.js.
               </p>
             </div>
-            </div>
             <div className="link-site-git">
             <a href="https://cocky-perlman-7185c7.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
             <a href="https://github.com/skylarbeese/react-reEs.git"  target="_blank" rel="noopener noreferrer">
  <h2>See git repo here</h2></a>
             </div>
+            </div>
+           
             </div>
         
             <div className="img-gal-img-4">
@@ -182,10 +183,10 @@ class RealUi extends Component {
             
           </div>
           <div className="img-gal-img-2">
-            <div className="te-con">
+         {/*   <div className="te-con">
              <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[46]})`}}></div>
              <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[47]})`}}></div>
-            </div>
+                      </div> */}
             </div>
 
             <div className="tex-1">
@@ -210,11 +211,11 @@ class RealUi extends Component {
               </p>
             </div>
             </div>
-          {/*  <div className="link-site-git">
+            <div className="link-site-git">
             <a href="https://cocky-perlman-7185c7.netlify.app/"  target="_blank" rel="noopener noreferrer"><h2>See full site here</h2></a>
             <a href="https://github.com/skylarbeese/ReactPhoto.git"  target="_blank" rel="noopener noreferrer">
  <h2>See git repo here</h2></a>
-  </div> */}
+  </div> 
             </div>
 
             <div className="img-gal-img-4">
@@ -290,12 +291,12 @@ class RealUi extends Component {
              </div>
             
           </div>
-          <div className="img-gal-img-2">
-            <div className="te-con">
+         <div className="img-gal-img-2">
+          {/*   <div className="te-con">
              <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[46]})`}}></div>
              <div className="image-banner-ui-2" style= {{backgroundImage: `url(${Photo[47]})`}}></div>
-            </div>
-            </div>
+</div> */}
+            </div> 
 
             <div className="tex-1">
             <div className="text-des-link">

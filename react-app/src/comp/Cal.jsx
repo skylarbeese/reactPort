@@ -140,7 +140,7 @@ cause the answer is university students. I will need to figure out the things th
                    <div className="img-1 img-gal" style= {{backgroundImage: `url(${Photo[77]})`}}></div>
                 </div>
                 <div className="img-con-cpm">
-                   <div className="img-1 img-gal" style= {{backgroundImage: `url(${Photo[72]})`}}></div>
+                   <div className="img-1 img-gal" style= {{backgroundImage: `url(${Photo[76]})`}}></div>
                 </div>
                 
                 <div className="img-con-cpm">
